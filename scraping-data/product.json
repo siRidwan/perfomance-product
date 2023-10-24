@@ -1,0 +1,1009 @@
+{
+    "bff_meta": null,
+    "data": {
+        "abnormal_popup": null,
+        "account": {
+            "adult_consent": 0,
+            "birth_timestamp": 0,
+            "default_address": {
+                "address": null,
+                "city": "KOTA JAKARTA PUSAT",
+                "district": "MENTENG",
+                "region": null,
+                "state": "DKI JAKARTA",
+                "town": "",
+                "zip_code": null
+            },
+            "is_new_user": true,
+            "user_id": 1038266973
+        },
+        "age_gate": {
+            "kyc": null
+        },
+        "age_gate_control": null,
+        "coin_info": {
+            "coin_earn_items": [
+                {
+                    "coin_earn": 0
+                }
+            ],
+            "coin_earn_label": null,
+            "spend_cash_unit": 100000
+        },
+        "deep_discount": {
+            "is_dday": false,
+            "is_lpp": false,
+            "lowest_past_price": null,
+            "model_id": 89396211975,
+            "price": {
+                "price_mask": null,
+                "range_max": -1,
+                "range_min": -1,
+                "single_value": 11501800000
+            },
+            "price_before_discount": {
+                "price_mask": null,
+                "range_max": -1,
+                "range_min": -1,
+                "single_value": 47000000000
+            },
+            "promotion_id": 181455592439808,
+            "reminder_event": {
+                "end_time": 1698253199,
+                "item_id": 23947956290,
+                "item_name": "ZEVAN Headphone Wireless Bone Conduction VG06 Sport For Open Ear",
+                "shop_id": 389631657,
+                "start_time": 1698166800
+            },
+            "skin": {
+                "background_image": "id-11134601-7quky-ljcict8y2deydf",
+                "font_color": "#ffffff",
+                "pre_hype_text": "Spesial 25 Okt Rp115.018",
+                "pre_hype_text_font_size_lower": 0,
+                "pre_hype_text_font_size_upper": 0,
+                "pre_hype_text_lower": "",
+                "pre_hype_text_upper": "",
+                "text_left_offset": 23
+            },
+            "sold_count": 0
+        },
+        "display_sections": {
+            "add_on_deal": {
+                "background_color": "rgba(255, 87, 34, 0.1)",
+                "color": "primary",
+                "display": "aod",
+                "exclusive_price": null,
+                "text": "Kombo Hemat",
+                "type": 0
+            },
+            "bundle_deal": null,
+            "coin": null,
+            "exclusive_price_label": null,
+            "free_return": null,
+            "wholesale": null
+        },
+        "exclusive_price": null,
+        "exclusive_price_cta": null,
+        "flash_sale": null,
+        "flash_sale_preview": null,
+        "free_return": null,
+        "ineligible_ep": null,
+        "item": {
+            "add_on_deal_info": {
+                "add_on_deal_id": 212647636,
+                "add_on_deal_label": "Kombo Hemat",
+                "status": 1,
+                "sub_type": 0
+            },
+            "attributes": [
+                {
+                    "brand_option": null,
+                    "id": 100408,
+                    "is_timestamp": false,
+                    "name": "Tipe Koneksi",
+                    "url": null,
+                    "val_id": 2530,
+                    "value": "Wireless"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100516,
+                    "is_timestamp": false,
+                    "name": "Kesesuaian Audio",
+                    "url": null,
+                    "val_id": 2867,
+                    "value": "Handphone"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100523,
+                    "is_timestamp": false,
+                    "name": "Fitur Earphones, Headphones & Headsets",
+                    "url": null,
+                    "val_id": 2944,
+                    "value": "Mikrofon internal, Noise Isolating, Tahan Keringat, Kontrol Volume"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100121,
+                    "is_timestamp": false,
+                    "name": "Masa Garansi",
+                    "url": null,
+                    "val_id": 810,
+                    "value": "6 Bulan"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100519,
+                    "is_timestamp": false,
+                    "name": "Tipe Earphone, Headphone & Headset",
+                    "url": null,
+                    "val_id": 0,
+                    "value": "Open Ear"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100370,
+                    "is_timestamp": false,
+                    "name": "Jenis Garansi",
+                    "url": null,
+                    "val_id": 0,
+                    "value": "Garansi Toko"
+                }
+            ],
+            "badge_icon_type": 0,
+            "brand": "ZEVAN",
+            "brand_id": 3102646,
+            "bundle_deal_info": null,
+            "can_use_wholesale": false,
+            "cat_id": 100535,
+            "categories": [
+                {
+                    "catid": 100535,
+                    "display_name": "Audio",
+                    "is_default_subcat": false,
+                    "no_sub": false
+                },
+                {
+                    "catid": 100578,
+                    "display_name": "Earphone, Headphone, & Headset",
+                    "is_default_subcat": false,
+                    "no_sub": true
+                }
+            ],
+            "cb_option": 0,
+            "complaint_policy": null,
+            "condition": 1,
+            "ctime": 1689235432,
+            "currency": "IDR",
+            "current_promotion_has_reserve_stock": false,
+            "current_promotion_reserved_stock": 0,
+            "deep_discount": null,
+            "description": "\u2b50ZEVAN kualitas terbaik dan terpercaya\u2b50\n\nHeadphone Bluetooth WIreless VG06 mentransmisikan suara ke pendengaran melalui konduksi tulang, bukan melalui transmisi suara agar tidak merusak gendang telinga. Kualitas suara yang bagus tidak kalah dengan headphone lainnya dan tidak menyakiti telinga.\n\nHeadphone ini sangat cocok untuk olahraga, body nya ringan, bahannya ramah kulit dan aman dipakai dalam waktu yang lama. Solusi inovatif yang memadukan kualitas suara yang jernih sehingga sangat nyaman saat digunakan.\n\nTeknologi bone conduction, headphone ini memungkinkan Anda mendengarkan musik atau menerima panggilan tanpa menghalangi pendengaran Anda.\n\nPanduan pemakaian :\n\n***Tekan (+) On/off\n***Tekan sekali cepat (-) Turunkan volume\n***Tekan sekali cepat (+) Naikkan volume\n***Tekan sekali lama (-) Lagu sebelumnya\n***Tekan sekali lama (+) Lagu selanjutnya\n***Tekan sekali (+) Angkat panggilan telepon/panggilan whatsapp (iPhone)\n***Tekan sekali sedikit lama (+) Tolak panggilan\n***Tekan dua kali (-&+) Jeda musik\n***Tekan dua kali (+) Play musik\n***Tekan dua kali (+) sebelum pairing ganti bahasa\n***Tekan tiga kali (+) Siri (Android)\n***Tekan 2 detik untuk power off/on, indikator baterai menyala 9 detik setelah diaktifkan dan setelah itu akan off\n\nSpesifikasi Produk :\n\nVersi Bluetooth : 5.3\nKapasitas Baterai : 160mAh\nWaktu panggilan: 10-15 jam\nWaktu mendengarkan : 10-15 jam\nWaktu siaga : 90 Jam\nJarak wireless: 10M\nPort Charger : Micro\nBerat produk : 10gr\nBerat Paket : 205gr\nFleksibel\nSlot kartu: TF card, MP3/WAV support\n\n\n\ud83d\udca2KLAIM GARANSI:\n\n- Garansi 6 bulan setelah barang diterima.\n- Garansi berlaku jika ditemukan kerusakan/cacat produksi pada produk.\n- Satu minggu kerusakan karena cacat produksi akan diganti baru. Lewat jangka waktu tersebut menjadi garansi servis (ongkir ditanggung pembeli)\n- Wajib menyertakan box produk, kartu garansi dan bukti pembelian untuk klaim penukaran barang baru.\n- Wajib menyertakan foto dan video unboxing produk yang mengalami kerusakan/cacat produksi saat klaim garansi.\n- Garansi tidak berlaku jika: kerusakan akibat salah pemakaian (korslet, jatuh, terkena air, dll).\n- Chat admin toko kami untuk proses klaim.\n- Syarat dan Ketentuan Berlaku\n\nPaket Berisi:\n\n1 x Headset Bluetooth\n1 x Kabel Pengisian Daya\n1 x User Manual\n1 x Kartu Garansi \n\n#ZEVAN #Headset #HeadsetBluetooth  #Earphone #EarphoneBluetooth",
+            "discount_stock": 224,
+            "estimated_days": 2,
+            "fe_categories": [
+                {
+                    "catid": 11044458,
+                    "display_name": "Handphone & Aksesoris",
+                    "is_default_subcat": false,
+                    "no_sub": false
+                },
+                {
+                    "catid": 11044544,
+                    "display_name": "Audio Handphone",
+                    "is_default_subcat": false,
+                    "no_sub": false
+                },
+                {
+                    "catid": 11044545,
+                    "display_name": "Earphone, Headphone & Headset",
+                    "is_default_subcat": false,
+                    "no_sub": true
+                }
+            ],
+            "flag": 196608,
+            "has_low_fulfillment_rate": false,
+            "has_model_with_available_shopee_stock": false,
+            "hidden_price_display": null,
+            "image": "id-11134207-7qul3-lj5683a13wtp01",
+            "invoice_option": null,
+            "is_adult": false,
+            "is_alcohol_product": false,
+            "is_category_failed": null,
+            "is_free_gift": false,
+            "is_free_shipping": false,
+            "is_hide_stock": false,
+            "is_infant_milk_formula_product": false,
+            "is_live_streaming_price": null,
+            "is_low_price_eligible": null,
+            "is_partial_fulfilled": false,
+            "is_pre_order": false,
+            "is_presale": false,
+            "is_presale_deposit_item": null,
+            "is_presale_deposit_made": null,
+            "is_prescription_item": false,
+            "is_preview": false,
+            "is_service_by_shopee": false,
+            "is_unavailable": false,
+            "item_has_video": true,
+            "item_id": 23947956290,
+            "item_rating": {
+                "rating_star": 4.953586497890296
+            },
+            "item_status": "normal",
+            "item_type": 0,
+            "label_ids": [
+                1002164,
+                1000651,
+                1001611,
+                1012729,
+                1400066662,
+                700150069,
+                700150070,
+                700150073,
+                1400175008,
+                1428713,
+                1000006,
+                1049120,
+                700005490,
+                822059908662278,
+                844931064601283,
+                844931086908638,
+                1000031,
+                1015914,
+                700190087,
+                1400285055,
+                298463379,
+                298458395,
+                298488462,
+                1668744,
+                1688749,
+                298488483,
+                298488472,
+                997801109,
+                997801106,
+                298468389,
+                700485101
+            ],
+            "min_purchase_limit": 0,
+            "models": [
+                {
+                    "current_promotion_has_reserve_stock": false,
+                    "current_promotion_reserved_stock": 0,
+                    "extinfo": {
+                        "estimated_days": 2,
+                        "is_pre_order": false,
+                        "tier_index": [
+                            0
+                        ]
+                    },
+                    "has_gimmick_tag": false,
+                    "item_id": 23947956290,
+                    "key_measurement": null,
+                    "model_id": 89396211975,
+                    "name": "",
+                    "normal_stock": 224,
+                    "price": 11900000000,
+                    "price_before_discount": 47000000000,
+                    "price_stocks": [
+                        {
+                            "allocated_stock": null,
+                            "promotion_type": 301,
+                            "stock_breakdown_by_location": null
+                        },
+                        {
+                            "allocated_stock": 0,
+                            "promotion_type": 0,
+                            "stock_breakdown_by_location": [
+                                {
+                                    "address_id": 0,
+                                    "allocated_stock": null,
+                                    "available_stock": 224,
+                                    "fulfilment_type": 2,
+                                    "location_id": "IDZ"
+                                }
+                            ]
+                        }
+                    ],
+                    "promotion_id": 737368753712785,
+                    "sold": 262,
+                    "status": 1,
+                    "stock": 224
+                }
+            ],
+            "normal_stock": 224,
+            "other_stock": 0,
+            "overall_purchase_limit": null,
+            "presale_dday_start_time": null,
+            "preview_info": null,
+            "price": 11900000000,
+            "price_before_discount": 47000000000,
+            "price_max": 11900000000,
+            "price_max_before_discount": 47000000000,
+            "price_min": 11900000000,
+            "price_min_before_discount": 47000000000,
+            "raw_discount": 0,
+            "reference_item_id": "",
+            "rich_text_description": null,
+            "shipping_icon_type": 0,
+            "shop_id": 389631657,
+            "shop_location": "KAB. TANGERANG",
+            "should_show_amp_tag": true,
+            "show_discount": 0,
+            "show_prescription_feed": false,
+            "show_recycling_info": false,
+            "size_chart": null,
+            "size_chart_info": null,
+            "spl_info": {
+                "channel_id": 8002601,
+                "installment_info": {
+                    "installment_plans": [],
+                    "interest_rate_discounted_type": 1,
+                    "max_installment_plan": {
+                        "instalment_sub_title": null,
+                        "months": 12,
+                        "option_info": "127",
+                        "pay_per_month": 1342700000,
+                        "recommended": false,
+                        "sub_title_color_type": null
+                    },
+                    "panel_status": 0,
+                    "recommended_installment_plan": {
+                        "instalment_sub_title": null,
+                        "months": 12,
+                        "option_info": "127",
+                        "pay_per_month": 1342700000,
+                        "recommended": null,
+                        "sub_title_color_type": null
+                    }
+                },
+                "show_spl": true,
+                "show_spl_lite": null,
+                "user_credit_info": {
+                    "display_color": "#ee4d2d",
+                    "display_text": "Cashback s/d 50RB",
+                    "partners_link": "https://uc-h5.cmf.co.id/landing/spl",
+                    "tracking_info": "{\"activation_status\":\"activate_now\"}",
+                    "user_status": 1
+                }
+            },
+            "status": 1,
+            "stock": 224,
+            "tier_variations": [
+                {
+                    "images": null,
+                    "name": "",
+                    "options": [
+                        ""
+                    ],
+                    "properties": null,
+                    "summed_stocks": null,
+                    "type": 0
+                }
+            ],
+            "title": "ZEVAN Headphone Wireless Bone Conduction VG06 Sport For Open Ear",
+            "welcome_package_type": 0,
+            "wholesale_tier_list": []
+        },
+        "product_attributes": {
+            "attrs": [
+                {
+                    "brand_option": null,
+                    "id": null,
+                    "is_timestamp": null,
+                    "name": "product_page_label_brand",
+                    "url": "/search?brands=3102646",
+                    "val_id": null,
+                    "value": "ZEVAN"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100408,
+                    "is_timestamp": false,
+                    "name": "Tipe Koneksi",
+                    "url": null,
+                    "val_id": 2530,
+                    "value": "Wireless"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100516,
+                    "is_timestamp": false,
+                    "name": "Kesesuaian Audio",
+                    "url": null,
+                    "val_id": 2867,
+                    "value": "Handphone"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100523,
+                    "is_timestamp": false,
+                    "name": "Fitur Earphones, Headphones & Headsets",
+                    "url": null,
+                    "val_id": 2944,
+                    "value": "Mikrofon internal, Noise Isolating, Tahan Keringat, Kontrol Volume"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100121,
+                    "is_timestamp": false,
+                    "name": "Masa Garansi",
+                    "url": null,
+                    "val_id": 810,
+                    "value": "6 Bulan"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100519,
+                    "is_timestamp": false,
+                    "name": "Tipe Earphone, Headphone & Headset",
+                    "url": null,
+                    "val_id": 0,
+                    "value": "Open Ear"
+                },
+                {
+                    "brand_option": null,
+                    "id": 100370,
+                    "is_timestamp": false,
+                    "name": "Jenis Garansi",
+                    "url": null,
+                    "val_id": 0,
+                    "value": "Garansi Toko"
+                },
+                {
+                    "brand_option": null,
+                    "id": null,
+                    "is_timestamp": null,
+                    "name": "label_stock",
+                    "url": null,
+                    "val_id": null,
+                    "value": "224"
+                },
+                {
+                    "brand_option": null,
+                    "id": null,
+                    "is_timestamp": null,
+                    "name": "label_ship_from",
+                    "url": null,
+                    "val_id": null,
+                    "value": "KAB. TANGERANG"
+                }
+            ],
+            "categories": null
+        },
+        "product_images": {
+            "abnormal_status": "",
+            "first_tier_variations": [],
+            "has_long_image": null,
+            "images": [
+                "id-11134207-7qul3-lj5683a13wtp01",
+                "id-11134207-7qul9-lj5683a15be546",
+                "id-11134207-7qul8-lj5683a16pylc2",
+                "id-11134207-7qul9-lj5683a184j189",
+                "id-11134207-7qul9-lj5683a19j3h5b"
+            ],
+            "long_images": null,
+            "makeup_preview": null,
+            "overlay": null,
+            "pdp_top_info_list": null,
+            "promotion_images": [],
+            "shopee_video_info_list": [],
+            "shopee_video_rcmd_info": null,
+            "shopee_video_req_id": null,
+            "skincam": null,
+            "sorted_variation_image_index_list": [],
+            "video": null
+        },
+        "product_meta": {
+            "show_best_price_guarantee": false,
+            "show_lowest_price_guarantee": false,
+            "show_official_shop_label_in_title": true,
+            "show_original_guarantee": true,
+            "show_shopee_verified_label": false
+        },
+        "product_price": {
+            "discount": 75,
+            "discount_text": ">40%",
+            "hide_price": false,
+            "labels": [
+                {
+                    "color": "primary",
+                    "display": "aod",
+                    "exclusive_price": null,
+                    "text": "Kombo Hemat",
+                    "type": 0
+                }
+            ],
+            "lowest_past_price": null,
+            "pack_size": "",
+            "presale_price": null,
+            "price": {
+                "price_mask": null,
+                "range_max": -1,
+                "range_min": -1,
+                "single_value": 11900000000
+            },
+            "price_before_discount": {
+                "price_mask": null,
+                "range_max": -1,
+                "range_min": -1,
+                "single_value": 47000000000
+            },
+            "spl_installment_info": null
+        },
+        "product_review": {
+            "cmt_count": 235,
+            "global_sold": 262,
+            "historical_sold": 262,
+            "liked": false,
+            "liked_count": 276,
+            "rating_count": [
+                237,
+                1,
+                1,
+                0,
+                4,
+                231
+            ],
+            "rating_star": 4.953586497890296,
+            "review_rcmd_exp_group": null,
+            "should_move_ratings_above": null,
+            "total_rating_count": 237
+        },
+        "product_shipping": {
+            "also_available_channel_name": "",
+            "free_shipping": {
+                "has_fss": true,
+                "min_spend": null
+            },
+            "grouped_channel_infos_by_service_type": [
+                {
+                    "channel_infos": [
+                        {
+                            "channel_delivery_info": {
+                                "delay_message": null,
+                                "display_mode": "edt_by_date",
+                                "estimated_delivery_date_from": 1698245860,
+                                "estimated_delivery_date_to": 1698505060,
+                                "estimated_delivery_time_max": 4,
+                                "estimated_delivery_time_min": 1,
+                                "has_edt": true
+                            },
+                            "channel_id": 80024,
+                            "channel_promotion_infos": null,
+                            "lowest_bpsf_promotion_rule": null,
+                            "name": "J&T Jemari",
+                            "price": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 0
+                            },
+                            "price_before_discount": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 800000000
+                            },
+                            "shipping_icon_type": null,
+                            "warning": null
+                        },
+                        {
+                            "channel_delivery_info": {
+                                "delay_message": null,
+                                "display_mode": null,
+                                "estimated_delivery_date_from": null,
+                                "estimated_delivery_date_to": null,
+                                "estimated_delivery_time_max": null,
+                                "estimated_delivery_time_min": null,
+                                "has_edt": false
+                            },
+                            "channel_id": 80055,
+                            "channel_promotion_infos": null,
+                            "lowest_bpsf_promotion_rule": null,
+                            "name": "Agen SPX Express",
+                            "price": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 0
+                            },
+                            "price_before_discount": null,
+                            "shipping_icon_type": null,
+                            "warning": {
+                                "type": "unsupported_address",
+                                "warning_msg": "Layanan Tidak Tersedia"
+                            }
+                        },
+                        {
+                            "channel_delivery_info": {
+                                "delay_message": null,
+                                "display_mode": "edt_by_date",
+                                "estimated_delivery_date_from": 1698245860,
+                                "estimated_delivery_date_to": 1698418660,
+                                "estimated_delivery_time_max": 3,
+                                "estimated_delivery_time_min": 1,
+                                "has_edt": true
+                            },
+                            "channel_id": 80099,
+                            "channel_promotion_infos": null,
+                            "lowest_bpsf_promotion_rule": null,
+                            "name": "SPX Express Point",
+                            "price": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 0
+                            },
+                            "price_before_discount": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 750000000
+                            },
+                            "shipping_icon_type": null,
+                            "warning": null
+                        }
+                    ],
+                    "name": "Ambil di Tempat"
+                }
+            ],
+            "is_item_with_price_range": false,
+            "pre_order_text": "",
+            "pre_selected_shipping_channel": {
+                "channel_delivery_info": {
+                    "delay_message": "",
+                    "display_mode": "edt_by_date",
+                    "estimated_delivery_date_from": 1698245860,
+                    "estimated_delivery_date_to": 1698418660,
+                    "estimated_delivery_time_max": 3,
+                    "estimated_delivery_time_min": 1,
+                    "has_edt": true
+                },
+                "channel_id": 8003,
+                "channel_promotion_infos": [],
+                "lowest_bpsf_promotion_rule": null,
+                "name": "Reguler",
+                "price": {
+                    "price_mask": null,
+                    "range_max": -1,
+                    "range_min": -1,
+                    "single_value": 0
+                },
+                "price_before_discount": {
+                    "price_mask": null,
+                    "range_max": -1,
+                    "range_min": -1,
+                    "single_value": 1000000000
+                },
+                "shipping_icon_type": null,
+                "warning": {
+                    "type": "",
+                    "warning_msg": ""
+                }
+            },
+            "shipping_fee_info": {
+                "price": {
+                    "price_mask": null,
+                    "range_max": 900000000,
+                    "range_min": 0,
+                    "single_value": -1
+                },
+                "ship_from_location": "KAB. TANGERANG",
+                "shipping_icon_type": 0,
+                "warning": null
+            },
+            "show_grouped_channel_first": false,
+            "show_shipping_to": true,
+            "ungrouped_channel_infos": [
+                {
+                    "channel_delivery_info": {
+                        "delay_message": null,
+                        "display_mode": "edt_by_date",
+                        "estimated_delivery_date_from": 1698245860,
+                        "estimated_delivery_date_to": 1698418660,
+                        "estimated_delivery_time_max": 3,
+                        "estimated_delivery_time_min": 1,
+                        "has_edt": true
+                    },
+                    "channel_id": 8003,
+                    "channel_promotion_infos": null,
+                    "lowest_bpsf_promotion_rule": null,
+                    "name": "Reguler",
+                    "price": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 0
+                    },
+                    "price_before_discount": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 1000000000
+                    },
+                    "shipping_icon_type": null,
+                    "warning": null
+                },
+                {
+                    "channel_delivery_info": {
+                        "delay_message": null,
+                        "display_mode": "edt_by_date",
+                        "estimated_delivery_date_from": 1698245860,
+                        "estimated_delivery_date_to": 1698418660,
+                        "estimated_delivery_time_max": 3,
+                        "estimated_delivery_time_min": 1,
+                        "has_edt": true
+                    },
+                    "channel_id": 8006,
+                    "channel_promotion_infos": [
+                        {
+                            "cap": 600000000,
+                            "discount_off": 600000000,
+                            "display_mode": 1,
+                            "min_spend": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 10000000000
+                            },
+                            "rule_id": 2108699,
+                            "type": 0
+                        }
+                    ],
+                    "lowest_bpsf_promotion_rule": null,
+                    "name": "Kargo",
+                    "price": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 900000000
+                    },
+                    "price_before_discount": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 1500000000
+                    },
+                    "shipping_icon_type": null,
+                    "warning": null
+                }
+            ]
+        },
+        "promotion_info": {
+            "installment": null,
+            "insurance": {
+                "rows": [
+                    {
+                        "badge_text": "",
+                        "product_id": "1485277174484245644",
+                        "text": "Pelajari",
+                        "title": "Proteksi Elektronik",
+                        "url": "https://insurance.shopee.co.id/ec/ec-pdp.html?from=pdp&product_id=1485277174484245644"
+                    }
+                ]
+            },
+            "item_installment_eligibility": {
+                "is_cc_installment_payment_eligible": false,
+                "is_non_cc_installment_payment_eligible": false
+            },
+            "spl": null,
+            "spl_lite": null,
+            "wholesale": null
+        },
+        "return_on_spot": {},
+        "shipping_meta": {
+            "show_cod": true,
+            "show_fufilled_by_shopee": false,
+            "show_mart": false,
+            "show_next_day_delivery": false
+        },
+        "shop_detailed": {
+            "account": {
+                "portrait": "123ad3ec7f2f163d8c50596e2c8423fe",
+                "status": 1,
+                "username": "zevan.acc"
+            },
+            "ctime": 1613645261,
+            "favorite_shop_info": null,
+            "follower_count": 18519,
+            "is_3pf": false,
+            "is_individual_seller": null,
+            "is_mart": false,
+            "is_official_shop": true,
+            "is_preferred_plus_seller": false,
+            "is_shopee_verified": false,
+            "item_count": 95,
+            "last_active_time": 1698159001,
+            "name": "ZEVAN Official Shop",
+            "place": "KAB. TANGERANG - KOSAMBI, BANTEN, ID",
+            "rating_bad": 99,
+            "rating_good": 24124,
+            "rating_normal": 234,
+            "rating_star": 4.881696,
+            "response_rate": 100,
+            "response_time": 2797,
+            "session_info": {
+                "is_show": true,
+                "preview_image": "id-11134104-7r98x-lmolfixwqies85",
+                "session_id": 44375347,
+                "session_url": "https://play-ws-src.livestream.shopee.co.id/livestreaming/id-live-1276072124702208-44375347.flv?auditkey=1.0~XG_xSzw7OBEjuZP1IbZubILpt7l_dAdLud93aYHN--eQI7aPIKVIY3nHkrnWTdJIQyET6r4aJ1TJsEra--jFDcwgfKw9OYpa3wA77RUp-PM~9404d3a875f74a4656cb7b94909323947ae4c7279ace7fb9d1230d79f134eeaf&cdnID=WANGSU&expire_ts=1698161260",
+                "view_count": 6
+            },
+            "session_infos": [
+                {
+                    "is_show": true,
+                    "preview_image": "id-11134104-7r98x-lmolfixwqies85",
+                    "session_id": 44375347,
+                    "session_url": "https://play-ws-src.livestream.shopee.co.id/livestreaming/id-live-1276072124702208-44375347.flv?auditkey=1.0~XG_xSzw7OBEjuZP1IbZubILpt7l_dAdLud93aYHN--eQI7aPIKVIY3nHkrnWTdJIQyET6r4aJ1TJsEra--jFDcwgfKw9OYpa3wA77RUp-PM~9404d3a875f74a4656cb7b94909323947ae4c7279ace7fb9d1230d79f134eeaf&cdnID=WANGSU&expire_ts=1698161260",
+                    "view_count": 6
+                }
+            ],
+            "shop_location": "KAB. TANGERANG",
+            "shopid": 389631657,
+            "show_official_shop_label": true,
+            "sold_total": 57058,
+            "status": 1,
+            "userid": 389651234,
+            "vacation": false
+        },
+        "shop_vouchers": [
+            {
+                "action": null,
+                "airpay_opv_extra_info": null,
+                "claim_start_time": null,
+                "coin_cap": null,
+                "coin_earned": null,
+                "coin_percentage": null,
+                "collect_time": null,
+                "current_spend": null,
+                "customer_reference_id": null,
+                "customised_flag": null,
+                "customised_labels": [],
+                "customised_mall_name": null,
+                "customised_product_scope_tag_image_hash": null,
+                "customised_product_scope_tags": null,
+                "description": null,
+                "disabled": null,
+                "discount_cap": 0,
+                "discount_percentage": 0,
+                "discount_value": 300000000,
+                "display_labels": null,
+                "dp_category_name": null,
+                "end_time": 1703995080,
+                "error_code": 0,
+                "fixed_flag": null,
+                "fsv_voucher_card_ui_info": null,
+                "fully_redeemed": null,
+                "has_expired": null,
+                "icon_hash": "123ad3ec7f2f163d8c50596e2c8423fe",
+                "icon_text": "ZEVAN Official Shop",
+                "icon_url": null,
+                "invalid_message": null,
+                "invalid_message_code": null,
+                "is_claimed_before": false,
+                "is_customised_icon": null,
+                "is_shop_official": true,
+                "is_shop_preferred": false,
+                "left_count": null,
+                "min_spend": 0,
+                "new_user_only": null,
+                "now_food_extra_info": null,
+                "partner_extra_info": null,
+                "percentage_claimed": 0,
+                "percentage_used": 30,
+                "platform_type": null,
+                "product_limit": false,
+                "promotionid": 727760683417600,
+                "quota_type": 1,
+                "remaining_usage_limit": 5,
+                "reward_cap": 0,
+                "reward_percentage": 0,
+                "reward_type": 0,
+                "reward_value": 300000000,
+                "shop_count": null,
+                "shop_id": 389631657,
+                "shop_logo": null,
+                "shop_name": null,
+                "shopee_wallet_only": null,
+                "signature": "a8271dae9d628e78f9d51f4666ae859ea4ae0de4c18ba997f60d921daa0d0f7a",
+                "small_icon_list": null,
+                "start_time": 1696215060,
+                "sub_icon_text": null,
+                "title": null,
+                "ui_display_type": null,
+                "usage_limit": null,
+                "usage_limit_per_user": 5,
+                "use_link": null,
+                "use_type": null,
+                "used_count": null,
+                "used_price": null,
+                "valid_days": null,
+                "voucher_code": "ZEVAZEVCC",
+                "voucher_external_market_type": null,
+                "voucher_market_type": null,
+                "wallet_redeemable": null
+            },
+            {
+                "action": null,
+                "airpay_opv_extra_info": null,
+                "claim_start_time": null,
+                "coin_cap": null,
+                "coin_earned": null,
+                "coin_percentage": null,
+                "collect_time": null,
+                "current_spend": null,
+                "customer_reference_id": null,
+                "customised_flag": null,
+                "customised_labels": [],
+                "customised_mall_name": null,
+                "customised_product_scope_tag_image_hash": null,
+                "customised_product_scope_tags": null,
+                "description": null,
+                "disabled": null,
+                "discount_cap": 0,
+                "discount_percentage": 0,
+                "discount_value": 500000000,
+                "display_labels": null,
+                "dp_category_name": null,
+                "end_time": 1703994000,
+                "error_code": 9,
+                "fixed_flag": null,
+                "fsv_voucher_card_ui_info": null,
+                "fully_redeemed": null,
+                "has_expired": null,
+                "icon_hash": "123ad3ec7f2f163d8c50596e2c8423fe",
+                "icon_text": "ZEVAN Official Shop",
+                "icon_url": null,
+                "invalid_message": null,
+                "invalid_message_code": null,
+                "is_claimed_before": false,
+                "is_customised_icon": null,
+                "is_shop_official": true,
+                "is_shop_preferred": false,
+                "left_count": null,
+                "min_spend": 20000000000,
+                "new_user_only": null,
+                "now_food_extra_info": null,
+                "partner_extra_info": null,
+                "percentage_claimed": 0,
+                "percentage_used": 10,
+                "platform_type": null,
+                "product_limit": false,
+                "promotionid": 726305897447424,
+                "quota_type": 1,
+                "remaining_usage_limit": 5,
+                "reward_cap": 0,
+                "reward_percentage": 0,
+                "reward_type": 0,
+                "reward_value": 500000000,
+                "shop_count": null,
+                "shop_id": 389631657,
+                "shop_logo": null,
+                "shop_name": null,
+                "shopee_wallet_only": null,
+                "signature": "c2c6925d61360531afcfd522256b7708f9c36350e3006b770cba80aabf16b36d",
+                "small_icon_list": null,
+                "start_time": 1696041660,
+                "sub_icon_text": null,
+                "title": null,
+                "ui_display_type": null,
+                "usage_limit": null,
+                "usage_limit_per_user": 5,
+                "use_link": null,
+                "use_type": null,
+                "used_count": null,
+                "used_price": null,
+                "valid_days": null,
+                "voucher_code": "ZEVAZEV1",
+                "voucher_external_market_type": null,
+                "voucher_market_type": null,
+                "wallet_redeemable": null
+            }
+        ],
+        "tax_disclaimer": null
+    },
+    "error": null,
+    "error_msg": null
+}
