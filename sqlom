@@ -18,6 +18,7 @@ competitors_store.username AS username,
 competitors_store.location AS place,
 competitors_store.store_name AS store_name,
 competitors_data.sku AS sku,
+competitors_data.warehouse_id AS warehouse_id,
 ((competitors_product.sold / 30) * DAY(NOW())) * competitors_product.price AS omzet_bulan,
 competitors_product.sold * competitors_product.price AS omzet_bulan_terakhir,
 (competitors_product.sold / 30) * DAY(NOW()) AS terjual_bulan,
@@ -25,7 +26,10 @@ competitors_product.sold * competitors_product.price AS omzet_bulan_terakhir,
 (competitors_product.normal_stock * competitors_product.price) AS sellingPriceStock,
 competitors_product.global_sold AS global_sold,
 competitors_product.global_sold * competitors_product.price AS global_sold,
-tria_stock.item_name AS item_name
+CASE
+    WHEN tria_stock.item_name IS NOT NULL THEN tria_stock.item_name
+    ELSE mp_data_products.sku_name
+END AS item_name
 FROM
 competitors_product
 JOIN competitors_product_models
@@ -34,3 +38,7 @@ JOIN competitors_store
 ON competitors_product.shopid = competitors_store.shopid
 RIGHT JOIN competitors_data
 ON competitors_product.itemid = competitors_data.itemid
+LEFT JOIN tria_stock
+ON CONCAT(competitors_data.sku, '-', competitors_data.warehouse_id) = tria_stock.ids
+JOIN mp_data_products
+ON CONCAT(competitors_data.sku, '-', competitors_data.warehouse_id) = mp_data_products.ids

@@ -116,7 +116,7 @@
             "current_promotion_reserved_stock": 0,
             "deep_discount": null,
             "description": "Fungsi : Skipping / alat olahraga\nBahan : PVC\nDeskripsi Produk :\n1. tali lompat olahraga profesional dengan desain ilmiah, lebih ringan dan lebih cepat.\n2. tali dapat disesuaikan, tidak mudah kusut, tali yang tebal, ringan dan portable, dan bahan ramah lingkungan.\n3. Mendukung rotasi 360 derajat, tidak gagap, tidak kusut, tidak kendur.\n4. Memiliki berat 96g dan minimalis memudahkan dibawa kemana mana.\n5. Pegang non-slip buram, pegangan tidak mudah lepas dan panjang 3m\n\nNotes:\n*jika anda membatalkan pesanan  atau terjadi kendala seperti kehilangan paket yang disebabkan oleh kelalaian pembeli , kami tidak akan bertanggung jawab atas hal tersebut. \n*Kerusakan yang terjadi saat pengiriman bukan tanggung jawab kami ya,dimohon untuk klaim ke ekspedisi!\n*Karena tampilan yang berbeda dan cahaya yang berbeda, kemungkinan gambar yang ditunjukan dengan produk aslinya terdapat sedikit perbedaan. \n*Pengukuruan produk juga menggunakan sistem manual,jika terdapat perbedaan ukuran 1-3cm adalah normal dan mohon untuk dimengerti.\nTerima kasih atas pengertian Anda !\n\nHalo, selamat datang di yoo woo home official store \u2714\u2714\u2714\nReady stock akan dikirim dalam 1-3 hari \u2714\u2714\u2714\nProduk kami berkualitas tinggi dengan harga terjangkau. \u2714\u2714\u2714\nJangan lupa beri kami 5 bintang ! mohon untuk membaca deskripsi produk kami dengan teliti sebelum membeli !\nJika Anda memiliki masalah pembelian, silakan hubungi kami melalui \"obrolan\", kami akan membalas Anda sesegera mungkin. Selamat berbelanja.Terima kasih!\n",
-            "discount_stock": 12263,
+            "discount_stock": 12208,
             "estimated_days": 2,
             "fe_categories": [
                 {
@@ -165,7 +165,7 @@
             "item_has_video": true,
             "item_id": 23419209268,
             "item_rating": {
-                "rating_star": 4.864980544747081
+                "rating_star": 4.865190365190365
             },
             "item_status": "normal",
             "item_type": 0,
@@ -235,7 +235,7 @@
                     "key_measurement": null,
                     "model_id": 137346253369,
                     "name": "Biru",
-                    "normal_stock": 2531,
+                    "normal_stock": 2515,
                     "price": 1185000000,
                     "price_before_discount": 3000000000,
                     "price_stocks": [
@@ -251,7 +251,7 @@
                                 {
                                     "address_id": 0,
                                     "allocated_stock": null,
-                                    "available_stock": 2531,
+                                    "available_stock": 2515,
                                     "fulfilment_type": 2,
                                     "location_id": "IDZ"
                                 }
@@ -259,9 +259,9 @@
                         }
                     ],
                     "promotion_id": 732821977175148,
-                    "sold": 2734,
+                    "sold": 2735,
                     "status": 1,
-                    "stock": 2531
+                    "stock": 2515
                 },
                 {
                     "current_promotion_has_reserve_stock": false,
@@ -278,7 +278,7 @@
                     "key_measurement": null,
                     "model_id": 137346253370,
                     "name": "Ungu",
-                    "normal_stock": 3596,
+                    "normal_stock": 3572,
                     "price": 1185000000,
                     "price_before_discount": 3000000000,
                     "price_stocks": [
@@ -294,7 +294,7 @@
                                 {
                                     "address_id": 0,
                                     "allocated_stock": null,
-                                    "available_stock": 3596,
+                                    "available_stock": 3572,
                                     "fulfilment_type": 2,
                                     "location_id": "IDZ"
                                 }
@@ -302,9 +302,9 @@
                         }
                     ],
                     "promotion_id": 732821977175148,
-                    "sold": 4955,
+                    "sold": 4967,
                     "status": 1,
-                    "stock": 3596
+                    "stock": 3572
                 },
                 {
                     "current_promotion_has_reserve_stock": false,
@@ -321,7 +321,7 @@
                     "key_measurement": null,
                     "model_id": 127346253443,
                     "name": "Hitam",
-                    "normal_stock": 3535,
+                    "normal_stock": 3524,
                     "price": 1185000000,
                     "price_before_discount": 3000000000,
                     "price_stocks": [
@@ -337,7 +337,7 @@
                                 {
                                     "address_id": 0,
                                     "allocated_stock": null,
-                                    "available_stock": 3535,
+                                    "available_stock": 3524,
                                     "fulfilment_type": 2,
                                     "location_id": "IDZ"
                                 }
@@ -345,9 +345,9 @@
                         }
                     ],
                     "promotion_id": 732821977175148,
-                    "sold": 4365,
+                    "sold": 4368,
                     "status": 1,
-                    "stock": 3535
+                    "stock": 3524
                 },
                 {
                     "current_promotion_has_reserve_stock": false,
@@ -364,7 +364,7 @@
                     "key_measurement": null,
                     "model_id": 137346253368,
                     "name": "Merah",
-                    "normal_stock": 2601,
+                    "normal_stock": 2597,
                     "price": 1185000000,
                     "price_before_discount": 3000000000,
                     "price_stocks": [
@@ -380,7 +380,7 @@
                                 {
                                     "address_id": 0,
                                     "allocated_stock": null,
-                                    "available_stock": 2601,
+                                    "available_stock": 2597,
                                     "fulfilment_type": 2,
                                     "location_id": "IDZ"
                                 }
@@ -388,12 +388,12 @@
                         }
                     ],
                     "promotion_id": 732821977175148,
-                    "sold": 3053,
+                    "sold": 3055,
                     "status": 1,
-                    "stock": 2601
+                    "stock": 2597
                 }
             ],
-            "normal_stock": 12263,
+            "normal_stock": 12208,
             "other_stock": 0,
             "overall_purchase_limit": null,
             "presale_dday_start_time": null,
@@ -628,7 +628,7 @@
                 }
             },
             "status": 1,
-            "stock": 12263,
+            "stock": 12208,
             "tier_variations": [
                 {
                     "images": [
@@ -662,7 +662,7 @@
                     "name": "label_stock",
                     "url": null,
                     "val_id": null,
-                    "value": "12263"
+                    "value": "12208"
                 },
                 {
                     "brand_option": null,
@@ -682,22 +682,22 @@
                 {
                     "image": "sg-11134201-23010-op2nskyyxsmv06",
                     "name": "Hitam",
-                    "summed_stock": 3535
+                    "summed_stock": 3524
                 },
                 {
                     "image": "sg-11134201-23010-u94ewqyyxsmv77",
                     "name": "Merah",
-                    "summed_stock": 2601
+                    "summed_stock": 2597
                 },
                 {
                     "image": "sg-11134201-23010-vif0ruyyxsmv45",
                     "name": "Biru",
-                    "summed_stock": 2531
+                    "summed_stock": 2515
                 },
                 {
                     "image": "sg-11134201-23010-oxr60wyyxsmv43",
                     "name": "Ungu",
-                    "summed_stock": 3596
+                    "summed_stock": 3572
                 }
             ],
             "has_long_image": null,
@@ -734,7 +734,7 @@
                     "height": 540,
                     "path": "",
                     "profile": "MP4",
-                    "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
+                    "url": "https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
                     "width": 540
                 },
                 "duration": 21,
@@ -745,7 +745,7 @@
                         "height": 480,
                         "path": "api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4",
                         "profile": "MP4",
-                        "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4",
+                        "url": "https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4",
                         "width": 480
                     },
                     {
@@ -754,7 +754,7 @@
                         "height": 540,
                         "path": "api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4",
                         "profile": "MP4",
-                        "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4",
+                        "url": "https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4",
                         "width": 540
                     },
                     {
@@ -763,12 +763,12 @@
                         "height": 540,
                         "path": "api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
                         "profile": "MP4",
-                        "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
+                        "url": "https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
                         "width": 540
                     }
                 ],
                 "item_cover": null,
-                "mms_data": "{\"vid\":\"sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325\",\"biz\":107,\"duration\":20896,\"create_time\":1674033658,\"update_time\":1674033660,\"serviceID\":6,\"cover\":\"https://down-ws-sg.img.susercontent.com/sg-11110105-23010-uyj0r1qkigmv22\",\"formats\":[{\"format\":1600003,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4\",\"width\":480,\"height\":480,\"bitrate\":631696,\"abitrate\":48328,\"duration\":20959,\"size\":1799995,\"fps\":25,\"update_time\":1674033665},{\"format\":1600010,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":650029,\"abitrate\":48312,\"duration\":20879,\"size\":1841546,\"fps\":25.04789,\"update_time\":1674033666},{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":727637,\"abitrate\":128264,\"duration\":20879,\"size\":2252727,\"fps\":25.04789,\"update_time\":1674033665}],\"extend_formats\":{\"H265\":[{\"format\":1600307,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110107/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003071678318789.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110107/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003071678318789.mp4\",\"width\":540,\"height\":540,\"bitrate\":589044,\"abitrate\":128248,\"duration\":20879,\"size\":1893204,\"fps\":25.04789,\"update_time\":1678318813},{\"format\":1600309,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003091684254993.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003091684254993.mp4\",\"width\":540,\"height\":540,\"bitrate\":678314,\"abitrate\":128248,\"duration\":20879,\"size\":2126200,\"fps\":25.04789,\"update_time\":1684255013}]},\"default_format\":{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":727637,\"abitrate\":128264,\"duration\":20879,\"size\":2252727,\"fps\":25.04789,\"update_time\":1674033665}}",
+                "mms_data": "{\"vid\":\"sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325\",\"biz\":107,\"duration\":20896,\"create_time\":1674033658,\"update_time\":1674033660,\"serviceID\":6,\"cover\":\"https://down-ws-sg.img.susercontent.com/sg-11110105-23010-uyj0r1qkigmv22\",\"formats\":[{\"format\":1600003,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4\",\"width\":480,\"height\":480,\"bitrate\":631696,\"abitrate\":48328,\"duration\":20959,\"size\":1799995,\"fps\":25,\"update_time\":1674033665},{\"format\":1600010,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":650029,\"abitrate\":48312,\"duration\":20879,\"size\":1841546,\"fps\":25.04789,\"update_time\":1674033666},{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":727637,\"abitrate\":128264,\"duration\":20879,\"size\":2252727,\"fps\":25.04789,\"update_time\":1674033665}],\"extend_formats\":{\"H265\":[{\"format\":1600307,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110107/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003071678318789.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110107/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003071678318789.mp4\",\"width\":540,\"height\":540,\"bitrate\":589044,\"abitrate\":128248,\"duration\":20879,\"size\":1893204,\"fps\":25.04789,\"update_time\":1678318813},{\"format\":1600309,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003091684254993.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003091684254993.mp4\",\"width\":540,\"height\":540,\"bitrate\":678314,\"abitrate\":128248,\"duration\":20879,\"size\":2126200,\"fps\":25.04789,\"update_time\":1684255013}]},\"default_format\":{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":727637,\"abitrate\":128264,\"duration\":20879,\"size\":2252727,\"fps\":25.04789,\"update_time\":1674033665}}",
                 "thumb_url": "7f4ba4c8bfdb1630a3a69d7f300c9782",
                 "version": 2,
                 "vid": "sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325",
@@ -815,23 +815,23 @@
             "spl_installment_info": null
         },
         "product_review": {
-            "cmt_count": 5138,
-            "global_sold": 15107,
-            "historical_sold": 15107,
+            "cmt_count": 5146,
+            "global_sold": 15125,
+            "historical_sold": 15125,
             "liked": false,
-            "liked_count": 8681,
+            "liked_count": 8699,
             "rating_count": [
-                5140,
+                5148,
                 2,
                 2,
                 12,
                 656,
-                4468
+                4476
             ],
-            "rating_star": 4.864980544747081,
+            "rating_star": 4.865190365190365,
             "review_rcmd_exp_group": null,
             "should_move_ratings_above": null,
-            "total_rating_count": 5140
+            "total_rating_count": 5148
         },
         "product_shipping": {
             "also_available_channel_icon_type": null,
@@ -875,8 +875,8 @@
                             "channel_delivery_info": {
                                 "delay_message": null,
                                 "display_mode": "edt_by_date",
-                                "estimated_delivery_date_from": 1698314401,
-                                "estimated_delivery_date_to": 1698400801,
+                                "estimated_delivery_date_from": 1698329440,
+                                "estimated_delivery_date_to": 1698415840,
                                 "estimated_delivery_time_max": 2,
                                 "estimated_delivery_time_min": 1,
                                 "has_edt": true
@@ -911,8 +911,8 @@
                 "channel_delivery_info": {
                     "delay_message": "",
                     "display_mode": "edt_by_date",
-                    "estimated_delivery_date_from": 1698314401,
-                    "estimated_delivery_date_to": 1698400801,
+                    "estimated_delivery_date_from": 1698329440,
+                    "estimated_delivery_date_to": 1698415840,
                     "estimated_delivery_time_max": 2,
                     "estimated_delivery_time_min": 1,
                     "has_edt": true
@@ -958,8 +958,8 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698314401,
-                        "estimated_delivery_date_to": 1698400801,
+                        "estimated_delivery_date_from": 1698329440,
+                        "estimated_delivery_date_to": 1698415840,
                         "estimated_delivery_time_max": 2,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
@@ -1016,8 +1016,8 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698314401,
-                        "estimated_delivery_date_to": 1698487201,
+                        "estimated_delivery_date_from": 1698329440,
+                        "estimated_delivery_date_to": 1698502240,
                         "estimated_delivery_time_max": 3,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
@@ -1046,8 +1046,8 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698314401,
-                        "estimated_delivery_date_to": 1698314401,
+                        "estimated_delivery_date_from": 1698329440,
+                        "estimated_delivery_date_to": 1698329440,
                         "estimated_delivery_time_max": 1,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
@@ -1071,8 +1071,8 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698314401,
-                        "estimated_delivery_date_to": 1698314401,
+                        "estimated_delivery_date_from": 1698329440,
+                        "estimated_delivery_date_to": 1698329440,
                         "estimated_delivery_time_max": 1,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
@@ -1141,8 +1141,8 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698314401,
-                        "estimated_delivery_date_to": 1698400801,
+                        "estimated_delivery_date_from": 1698329440,
+                        "estimated_delivery_date_to": 1698415840,
                         "estimated_delivery_time_max": 2,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
@@ -1200,7 +1200,7 @@
             },
             "ctime": 1653907092,
             "favorite_shop_info": null,
-            "follower_count": 251638,
+            "follower_count": 252071,
             "is_3pf": false,
             "is_individual_seller": null,
             "is_mart": false,
@@ -1208,35 +1208,35 @@
             "is_preferred_plus_seller": false,
             "is_shopee_verified": false,
             "item_count": 213,
-            "last_active_time": 1698227836,
+            "last_active_time": 1698242999,
             "name": "Yoowoo Official Shop",
             "place": "KOTA JAKARTA PUSAT - SAWAH BESAR, DKI JAKARTA, ID",
-            "rating_bad": 343,
-            "rating_good": 277657,
-            "rating_normal": 1398,
-            "rating_star": 4.876125,
+            "rating_bad": 344,
+            "rating_good": 277923,
+            "rating_normal": 1404,
+            "rating_star": 4.876081,
             "response_rate": 100,
             "response_time": 49,
             "session_info": {
                 "is_show": true,
                 "preview_image": "id-11134104-7quky-lkgruc17vwwkba",
-                "session_id": 44498066,
-                "session_url": "https://play-tx-src.livestream.shopee.co.id/live/id-live-1935721959643648-44498066.flv?auditkey=1.0~TXudvqYIlk3umqDMoTsIo1kRrNfI8EtKuT7Wlh20BhvjTF4ICP0hd-FqiF10qyf8FfgFUBnadQJ08asGCDVLVz976n_e1_K0I_MhT-fW6zM~1d82466d199fc9cec5428af42a3ed76b621a02b3361d291aa273eb3a86c37561&cdnID=TXCLOUD&expire_ts=1698229801",
-                "view_count": 13
+                "session_id": 44515928,
+                "session_url": "https://play-ws-src.livestream.shopee.co.id/livestreaming/id-live-1935721959643648-44515928.flv?auditkey=1.0~oyrIEbTJ-E31lz5-7uvxA7mn_6duWM6imsyEoOaDB6aJKdzxsl0riRLDRQ-68nL_KouRdT4E7bjROEcDeV4oy6zHeFpPB9t7aAfLGy0EcyE~c8c37924a4f4b9f04d5483a3c3af1e5d4a3015b09e05731f01562d8750dbab70&cdnID=WANGSU&expire_ts=1698244840",
+                "view_count": 22
             },
             "session_infos": [
                 {
                     "is_show": true,
                     "preview_image": "id-11134104-7quky-lkgruc17vwwkba",
-                    "session_id": 44498066,
-                    "session_url": "https://play-tx-src.livestream.shopee.co.id/live/id-live-1935721959643648-44498066.flv?auditkey=1.0~TXudvqYIlk3umqDMoTsIo1kRrNfI8EtKuT7Wlh20BhvjTF4ICP0hd-FqiF10qyf8FfgFUBnadQJ08asGCDVLVz976n_e1_K0I_MhT-fW6zM~1d82466d199fc9cec5428af42a3ed76b621a02b3361d291aa273eb3a86c37561&cdnID=TXCLOUD&expire_ts=1698229801",
-                    "view_count": 13
+                    "session_id": 44515928,
+                    "session_url": "https://play-ws-src.livestream.shopee.co.id/livestreaming/id-live-1935721959643648-44515928.flv?auditkey=1.0~oyrIEbTJ-E31lz5-7uvxA7mn_6duWM6imsyEoOaDB6aJKdzxsl0riRLDRQ-68nL_KouRdT4E7bjROEcDeV4oy6zHeFpPB9t7aAfLGy0EcyE~c8c37924a4f4b9f04d5483a3c3af1e5d4a3015b09e05731f01562d8750dbab70&cdnID=WANGSU&expire_ts=1698244840",
+                    "view_count": 22
                 }
             ],
             "shop_location": "KOTA JAKARTA PUSAT",
             "shopid": 783124108,
             "show_official_shop_label": true,
-            "sold_total": 1266135,
+            "sold_total": 1266905,
             "status": 1,
             "userid": 783107861,
             "vacation": false

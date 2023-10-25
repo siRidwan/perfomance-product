@@ -1,6 +1,6 @@
-import sys
-sys.path.append("C:/Users/INFINITY/EMBULAH/database/")
-import database
+# import sys
+# sys.path.append("C:/Users/INFINITY/EMBULAH/database/")
+# import database
 from selenium import webdriver
 import json
 import requests
@@ -107,13 +107,13 @@ def consoleStore(shopid,item_id):
     requestData = {
     "entry_point": "ShopByPDP",
     "rcmd_condition": {
-        # "cat_id": 100535,
-        "item_id": item_id,
+        "cat_id": 100535,
+        "item_id": int(item_id),
         "step2_upstream": "search",
         "upstream": "pdp"
     },
     "version": 3,
-    "shopid": shopid
+    "shopid": int(shopid)
     }
     
 
@@ -185,7 +185,8 @@ for competitors in get_data():
             recommendations = recomend['recommendations']
             break
     for items in recommendations['items']:
-        if item_id == items['itemid']:
+        if int(item_id) == int(items['itemid']):
+            print(items)
             sold            = items['sold']
     for models in product_data['data']['item']['models']:
         model_id        = models['model_id']
@@ -195,29 +196,30 @@ for competitors in get_data():
         model_price     = int(float(int(models['price'])/100000))
         model_image     = ''
         postCompetitors(item_id, shop_id, image, title, date_time, normal_stock, global_sold, sold, price, total_rating_count, liked_count, rating_star, model_id, model_name, model_normal_stock, model_sold, model_price, model_image, username, place, store_name)
-        # asd.append({
-        #     "itemid"   : item_id,
-        #     "shopid"   : shop_id,
-        #     "image" : image,
-        #     "title" : title,
-        #     "ctime" : date_time,
-        #     "normal_stock"  : normal_stock,
-        #     "global_sold"   : global_sold,
-        #     "sold"  : sold,
-        #     "price" : price,
-        #     "total_rating_count"    : total_rating_count,
-        #     "liked_count"   : liked_count,
-        #     "rating_star"   : rating_star,
-        #     "model_id"  : model_id,
-        #     "model_name"    : model_name,
-        #     "model_normal_stock"    : model_normal_stock,
-        #     "model_sold"    : model_sold,
-        #     "model_price"   : model_price,
-        #     "model_image"   : model_image,
-        #     "username"  : username,
-        #     "location" : place,
-        #     "store_name"    : store_name
-        #     })
+#         asd.append({
+#             "itemid"   : item_id,
+#             "shopid"   : shop_id,
+#             "image" : image,
+#             "title" : title,
+#             "ctime" : date_time,
+#             "normal_stock"  : normal_stock,
+#             "global_sold"   : global_sold,
+#             "sold"  : sold,
+#             "price" : price,
+#             "total_rating_count"    : total_rating_count,
+#             "liked_count"   : liked_count,
+#             "rating_star"   : rating_star,
+#             "model_id"  : model_id,
+#             "model_name"    : model_name,
+#             "model_normal_stock"    : model_normal_stock,
+#             "model_sold"    : model_sold,
+#             "model_price"   : model_price,
+#             "model_image"   : model_image,
+#             "username"  : username,
+#             "location" : place,
+#             "store_name"    : store_name
+#             })
+# print(json.dumps(asd,indent=4))
 # shopid
 # with open("scraping-data/datas.json", "w") as w:
 #     w.write(json.dumps(asd, indent=4))
@@ -226,3 +228,4 @@ for competitors in get_data():
 # print(consoleProduct(3722694,8433542870))
 # Tutup peramban
 driver.quit()
+# sleep(20)

@@ -3,12 +3,12 @@ const requestData = {
   "entry_point": "ShopByPDP",
   "rcmd_condition": {
      "cat_id": 100535,
-     "item_id": 23947956290,
+     "item_id": 23419209268,
      "step2_upstream": "search",
      "upstream": "pdp"
   },
   "version": 3,
-  "shopid": 389631657
+  "shopid": 783124108
 };
 
 // Konfigurasi permintaan
