@@ -22,21 +22,34 @@
         },
         "age_gate_control": null,
         "coin_info": {
-            "coin_earn_items": [],
+            "coin_earn_items": [
+                {
+                    "coin_earn": 0
+                },
+                {
+                    "coin_earn": 0
+                },
+                {
+                    "coin_earn": 0
+                },
+                {
+                    "coin_earn": 0
+                }
+            ],
             "coin_earn_label": null,
             "spend_cash_unit": 100000
         },
         "deep_discount": null,
         "display_sections": {
-            "add_on_deal": {
-                "background_color": "rgba(255, 87, 34, 0.1)",
+            "add_on_deal": null,
+            "bundle_deal": {
+                "background_color": "",
                 "color": "primary",
-                "display": "aod",
+                "display": "bundle_deal",
                 "exclusive_price": null,
-                "text": "Hadiah Gratis",
+                "text": "Pilih 5, diskon 2%",
                 "type": 0
             },
-            "bundle_deal": null,
             "coin": null,
             "exclusive_price_label": null,
             "free_return": null,
@@ -49,41 +62,47 @@
         "free_return": null,
         "ineligible_ep": null,
         "item": {
-            "add_on_deal_info": {
-                "add_on_deal_id": 210381110,
-                "add_on_deal_label": "Hadiah Gratis",
-                "status": 1,
-                "sub_type": 1
-            },
+            "add_on_deal_info": null,
             "attributes": null,
             "badge_icon_type": 0,
             "brand": null,
             "brand_id": 0,
-            "bundle_deal_info": null,
+            "bundle_deal_info": {
+                "bundle_deal_id": 209830856,
+                "bundle_deal_label": "Pilih 5, diskon 2%",
+                "bundle_deal_rule": {
+                    "additional_tiers": [],
+                    "discount_percentage": 2,
+                    "discount_value": 0,
+                    "fix_price": 0,
+                    "min_amount": 5,
+                    "rule_type": 2
+                }
+            },
             "can_use_wholesale": false,
-            "cat_id": 100632,
+            "cat_id": 100637,
             "categories": [
                 {
-                    "catid": 100632,
-                    "display_name": "Ibu & Bayi",
+                    "catid": 100637,
+                    "display_name": "Olahraga & Outdoor",
                     "is_default_subcat": false,
                     "no_sub": false
                 },
                 {
-                    "catid": 100684,
-                    "display_name": "Mainan",
+                    "catid": 100725,
+                    "display_name": "Alat Rekreasi Olahraga & Aktivitas Outdoor",
                     "is_default_subcat": false,
                     "no_sub": false
                 },
                 {
-                    "catid": 101006,
-                    "display_name": "Mainan Bayi & Anak",
+                    "catid": 101295,
+                    "display_name": "Fitness",
                     "is_default_subcat": false,
                     "no_sub": false
                 },
                 {
-                    "catid": 101718,
-                    "display_name": "Gigitan Bayi",
+                    "catid": 101891,
+                    "display_name": "Tali Skipping",
                     "is_default_subcat": false,
                     "no_sub": true
                 }
@@ -91,30 +110,30 @@
             "cb_option": 0,
             "complaint_policy": null,
             "condition": 1,
-            "ctime": 1577084696,
+            "ctime": 1674026351,
             "currency": "IDR",
             "current_promotion_has_reserve_stock": false,
             "current_promotion_reserved_stock": 0,
             "deep_discount": null,
-            "description": "Gigitan Bayi Water Filled Obaiku\n\nMotif : Random / Sesuai Stok Yang Tersedia\n\nUntuk mempercepat pengiriman\nTidak bisa pilih bentuk dan warna \n\nKebanyakan bayi akan mencoba untuk meletakkan segala sesuatu kedalam mulut mereka pada usia dini. Mereka merasa nyaman untuk melakukannya. Bayi suka mengunyah banyak hal, terutama ketika mereka tumbuh gigi. Teether ini dirancang untuk memudahkan bayi untuk pegangan dan menempatkan dalam mulut mereka. Itu sangat menenangkan dan kenyamanan bagi bayi untuk mengunyah sesuatu yang keras yang menawarkan perlawanan yang memadai seperti teether.\n\nCara Penggunaan :\n- Cuci sebelum penggunaan awal, cuci dengan air hangat dan sabun cair bilas benar dengan air jernih\n- Simpan dalam lemari es dingin, lebih baik untuk memiliki 2 teether.\n- Jangan merebus dalam air panas atau microwave dan tidak menempatkannya dalam Freezer. \nHarga Sewaktu - Waktu Dapat Berubah Sesuai Kondisi Harga Bahan Baku \n\n#gigitanbayi #mainanbayi #waterfilledshooterteether#obaiku",
-            "discount_stock": 3848,
+            "description": "Fungsi : Skipping / alat olahraga\nBahan : PVC\nDeskripsi Produk :\n1. tali lompat olahraga profesional dengan desain ilmiah, lebih ringan dan lebih cepat.\n2. tali dapat disesuaikan, tidak mudah kusut, tali yang tebal, ringan dan portable, dan bahan ramah lingkungan.\n3. Mendukung rotasi 360 derajat, tidak gagap, tidak kusut, tidak kendur.\n4. Memiliki berat 96g dan minimalis memudahkan dibawa kemana mana.\n5. Pegang non-slip buram, pegangan tidak mudah lepas dan panjang 3m\n\nNotes:\n*jika anda membatalkan pesanan  atau terjadi kendala seperti kehilangan paket yang disebabkan oleh kelalaian pembeli , kami tidak akan bertanggung jawab atas hal tersebut. \n*Kerusakan yang terjadi saat pengiriman bukan tanggung jawab kami ya,dimohon untuk klaim ke ekspedisi!\n*Karena tampilan yang berbeda dan cahaya yang berbeda, kemungkinan gambar yang ditunjukan dengan produk aslinya terdapat sedikit perbedaan. \n*Pengukuruan produk juga menggunakan sistem manual,jika terdapat perbedaan ukuran 1-3cm adalah normal dan mohon untuk dimengerti.\nTerima kasih atas pengertian Anda !\n\nHalo, selamat datang di yoo woo home official store \u2714\u2714\u2714\nReady stock akan dikirim dalam 1-3 hari \u2714\u2714\u2714\nProduk kami berkualitas tinggi dengan harga terjangkau. \u2714\u2714\u2714\nJangan lupa beri kami 5 bintang ! mohon untuk membaca deskripsi produk kami dengan teliti sebelum membeli !\nJika Anda memiliki masalah pembelian, silakan hubungi kami melalui \"obrolan\", kami akan membalas Anda sesegera mungkin. Selamat berbelanja.Terima kasih!\n",
+            "discount_stock": 12263,
             "estimated_days": 2,
             "fe_categories": [
                 {
-                    "catid": 11043350,
-                    "display_name": "Ibu & Bayi",
+                    "catid": 11043958,
+                    "display_name": "Olahraga & Outdoor",
                     "is_default_subcat": false,
                     "no_sub": false
                 },
                 {
-                    "catid": 11043439,
-                    "display_name": "Mainan",
+                    "catid": 11044066,
+                    "display_name": "Fitness",
                     "is_default_subcat": false,
                     "no_sub": false
                 },
                 {
-                    "catid": 11043440,
-                    "display_name": "Mainan & Playmat Bayi",
+                    "catid": 11044068,
+                    "display_name": "Tali Skipping",
                     "is_default_subcat": false,
                     "no_sub": true
                 }
@@ -123,7 +142,7 @@
             "has_low_fulfillment_rate": false,
             "has_model_with_available_shopee_stock": false,
             "hidden_price_display": null,
-            "image": "3c94b16ba4f6957ef2b325f886d23fa0",
+            "image": "sg-11134201-23010-lvujgaxyxsmv84",
             "invoice_option": null,
             "is_adult": false,
             "is_alcohol_product": false,
@@ -144,80 +163,106 @@
             "is_service_by_shopee": false,
             "is_unavailable": false,
             "item_has_video": true,
-            "item_id": 3123211496,
+            "item_id": 23419209268,
             "item_rating": {
-                "rating_star": 4.802177858439202
+                "rating_star": 4.864980544747081
             },
             "item_status": "normal",
             "item_type": 0,
             "label_ids": [
-                1000167,
-                1000584,
-                1016142,
-                700185082,
-                700185083,
-                700185089,
+                1002164,
+                1400066662,
+                700195021,
+                1278663,
+                1268664,
                 1400175008,
+                700195090,
                 1428597,
-                1433701,
                 1428713,
-                1000006,
-                1000031,
-                1000111,
-                1000245,
-                1000375,
-                1000525,
-                1000530,
-                1000596,
-                1000729,
-                1000765,
-                1001017,
-                35,
-                1011751,
                 700020158,
-                1213640,
-                1059152,
-                700005487,
-                822059908662278,
-                844931086908638,
-                825249635454464,
+                1015914,
+                700185005,
+                1400170019,
+                1400175033,
+                1400180031,
+                1400180032,
+                1400170023,
+                1400180034,
+                700190084,
+                700190087,
+                1433714,
                 844931064601283,
+                844931086908638,
                 1213641,
                 1400285055,
-                1400066662,
+                1000006,
+                1213640,
                 298458334,
                 298458395,
-                1400066568,
-                1134053,
-                1015914,
-                700190087,
-                839709504247832,
-                1003033,
-                298488470,
-                1668744,
-                1688749,
-                298488483,
-                298463379,
-                298488472,
-                997801106,
-                997801104,
-                298458398,
-                298458404,
-                298458403,
-                298458396,
-                997801105,
-                997801103,
-                700485099,
-                700485103,
-                700485101,
-                700485102,
-                298468389,
-                298468390,
-                997801109,
-                298468393
+                700445073,
+                997776091,
+                700440004,
+                700440005,
+                1059152,
+                700005489,
+                822059908662278,
+                1000031,
+                1000741,
+                825465608492064,
+                825465608493600,
+                825465608494624,
+                825465608497696,
+                825465608499232,
+                837860934119952,
+                840955085144628,
+                840990690654214,
+                298458396
             ],
             "min_purchase_limit": 0,
             "models": [
+                {
+                    "current_promotion_has_reserve_stock": false,
+                    "current_promotion_reserved_stock": 0,
+                    "extinfo": {
+                        "estimated_days": 2,
+                        "is_pre_order": false,
+                        "tier_index": [
+                            2
+                        ]
+                    },
+                    "has_gimmick_tag": false,
+                    "item_id": 23419209268,
+                    "key_measurement": null,
+                    "model_id": 137346253369,
+                    "name": "Biru",
+                    "normal_stock": 2531,
+                    "price": 1185000000,
+                    "price_before_discount": 3000000000,
+                    "price_stocks": [
+                        {
+                            "allocated_stock": null,
+                            "promotion_type": 301,
+                            "stock_breakdown_by_location": null
+                        },
+                        {
+                            "allocated_stock": 0,
+                            "promotion_type": 0,
+                            "stock_breakdown_by_location": [
+                                {
+                                    "address_id": 0,
+                                    "allocated_stock": null,
+                                    "available_stock": 2531,
+                                    "fulfilment_type": 2,
+                                    "location_id": "IDZ"
+                                }
+                            ]
+                        }
+                    ],
+                    "promotion_id": 732821977175148,
+                    "sold": 2734,
+                    "status": 1,
+                    "stock": 2531
+                },
                 {
                     "current_promotion_has_reserve_stock": false,
                     "current_promotion_reserved_stock": 0,
@@ -229,13 +274,13 @@
                         ]
                     },
                     "has_gimmick_tag": false,
-                    "item_id": 3123211496,
+                    "item_id": 23419209268,
                     "key_measurement": null,
-                    "model_id": 107436847928,
-                    "name": "Kuning",
-                    "normal_stock": 989,
-                    "price": 1090000000,
-                    "price_before_discount": 1800000000,
+                    "model_id": 137346253370,
+                    "name": "Ungu",
+                    "normal_stock": 3596,
+                    "price": 1185000000,
+                    "price_before_discount": 3000000000,
                     "price_stocks": [
                         {
                             "allocated_stock": null,
@@ -249,60 +294,17 @@
                                 {
                                     "address_id": 0,
                                     "allocated_stock": null,
-                                    "available_stock": 989,
+                                    "available_stock": 3596,
                                     "fulfilment_type": 2,
                                     "location_id": "IDZ"
                                 }
                             ]
                         }
                     ],
-                    "promotion_id": 716624413984150,
-                    "sold": 11,
+                    "promotion_id": 732821977175148,
+                    "sold": 4955,
                     "status": 1,
-                    "stock": 989
-                },
-                {
-                    "current_promotion_has_reserve_stock": false,
-                    "current_promotion_reserved_stock": 0,
-                    "extinfo": {
-                        "estimated_days": 2,
-                        "is_pre_order": false,
-                        "tier_index": [
-                            4
-                        ]
-                    },
-                    "has_gimmick_tag": false,
-                    "item_id": 3123211496,
-                    "key_measurement": null,
-                    "model_id": 107436847929,
-                    "name": "Biru",
-                    "normal_stock": 5,
-                    "price": 1090000000,
-                    "price_before_discount": 1800000000,
-                    "price_stocks": [
-                        {
-                            "allocated_stock": null,
-                            "promotion_type": 301,
-                            "stock_breakdown_by_location": null
-                        },
-                        {
-                            "allocated_stock": 0,
-                            "promotion_type": 0,
-                            "stock_breakdown_by_location": [
-                                {
-                                    "address_id": 0,
-                                    "allocated_stock": null,
-                                    "available_stock": 5,
-                                    "fulfilment_type": 2,
-                                    "location_id": "IDZ"
-                                }
-                            ]
-                        }
-                    ],
-                    "promotion_id": 716624413984150,
-                    "sold": 44,
-                    "status": 1,
-                    "stock": 5
+                    "stock": 3596
                 },
                 {
                     "current_promotion_has_reserve_stock": false,
@@ -315,99 +317,13 @@
                         ]
                     },
                     "has_gimmick_tag": false,
-                    "item_id": 3123211496,
+                    "item_id": 23419209268,
                     "key_measurement": null,
-                    "model_id": 12124737669,
-                    "name": "Random Boy",
-                    "normal_stock": 883,
-                    "price": 950000000,
-                    "price_before_discount": 2000000000,
-                    "price_stocks": [
-                        {
-                            "allocated_stock": null,
-                            "promotion_type": 202,
-                            "stock_breakdown_by_location": null
-                        },
-                        {
-                            "allocated_stock": 0,
-                            "promotion_type": 0,
-                            "stock_breakdown_by_location": [
-                                {
-                                    "address_id": 0,
-                                    "allocated_stock": null,
-                                    "available_stock": 883,
-                                    "fulfilment_type": 2,
-                                    "location_id": "IDZ"
-                                }
-                            ]
-                        }
-                    ],
-                    "promotion_id": 181471184769025,
-                    "sold": 646,
-                    "status": 1,
-                    "stock": 883
-                },
-                {
-                    "current_promotion_has_reserve_stock": false,
-                    "current_promotion_reserved_stock": 0,
-                    "extinfo": {
-                        "estimated_days": 2,
-                        "is_pre_order": false,
-                        "tier_index": [
-                            1
-                        ]
-                    },
-                    "has_gimmick_tag": false,
-                    "item_id": 3123211496,
-                    "key_measurement": null,
-                    "model_id": 12124737670,
-                    "name": "Random Girl",
-                    "normal_stock": 1010,
-                    "price": 950000000,
-                    "price_before_discount": 2000000000,
-                    "price_stocks": [
-                        {
-                            "allocated_stock": null,
-                            "promotion_type": 202,
-                            "stock_breakdown_by_location": null
-                        },
-                        {
-                            "allocated_stock": 0,
-                            "promotion_type": 0,
-                            "stock_breakdown_by_location": [
-                                {
-                                    "address_id": 0,
-                                    "allocated_stock": null,
-                                    "available_stock": 1010,
-                                    "fulfilment_type": 2,
-                                    "location_id": "IDZ"
-                                }
-                            ]
-                        }
-                    ],
-                    "promotion_id": 181471184769025,
-                    "sold": 515,
-                    "status": 1,
-                    "stock": 1010
-                },
-                {
-                    "current_promotion_has_reserve_stock": false,
-                    "current_promotion_reserved_stock": 0,
-                    "extinfo": {
-                        "estimated_days": 2,
-                        "is_pre_order": false,
-                        "tier_index": [
-                            2
-                        ]
-                    },
-                    "has_gimmick_tag": false,
-                    "item_id": 3123211496,
-                    "key_measurement": null,
-                    "model_id": 107436847927,
-                    "name": "Pink",
-                    "normal_stock": 961,
-                    "price": 1090000000,
-                    "price_before_discount": 1800000000,
+                    "model_id": 127346253443,
+                    "name": "Hitam",
+                    "normal_stock": 3535,
+                    "price": 1185000000,
+                    "price_before_discount": 3000000000,
                     "price_stocks": [
                         {
                             "allocated_stock": null,
@@ -421,41 +337,276 @@
                                 {
                                     "address_id": 0,
                                     "allocated_stock": null,
-                                    "available_stock": 961,
+                                    "available_stock": 3535,
                                     "fulfilment_type": 2,
                                     "location_id": "IDZ"
                                 }
                             ]
                         }
                     ],
-                    "promotion_id": 716624413984150,
-                    "sold": 39,
+                    "promotion_id": 732821977175148,
+                    "sold": 4365,
                     "status": 1,
-                    "stock": 961
+                    "stock": 3535
+                },
+                {
+                    "current_promotion_has_reserve_stock": false,
+                    "current_promotion_reserved_stock": 0,
+                    "extinfo": {
+                        "estimated_days": 2,
+                        "is_pre_order": false,
+                        "tier_index": [
+                            1
+                        ]
+                    },
+                    "has_gimmick_tag": false,
+                    "item_id": 23419209268,
+                    "key_measurement": null,
+                    "model_id": 137346253368,
+                    "name": "Merah",
+                    "normal_stock": 2601,
+                    "price": 1185000000,
+                    "price_before_discount": 3000000000,
+                    "price_stocks": [
+                        {
+                            "allocated_stock": null,
+                            "promotion_type": 301,
+                            "stock_breakdown_by_location": null
+                        },
+                        {
+                            "allocated_stock": 0,
+                            "promotion_type": 0,
+                            "stock_breakdown_by_location": [
+                                {
+                                    "address_id": 0,
+                                    "allocated_stock": null,
+                                    "available_stock": 2601,
+                                    "fulfilment_type": 2,
+                                    "location_id": "IDZ"
+                                }
+                            ]
+                        }
+                    ],
+                    "promotion_id": 732821977175148,
+                    "sold": 3053,
+                    "status": 1,
+                    "stock": 2601
                 }
             ],
-            "normal_stock": 3848,
+            "normal_stock": 12263,
             "other_stock": 0,
             "overall_purchase_limit": null,
             "presale_dday_start_time": null,
             "preview_info": null,
-            "price": 950000000,
-            "price_before_discount": 1800000000,
-            "price_max": 1090000000,
-            "price_max_before_discount": 2000000000,
-            "price_min": 950000000,
-            "price_min_before_discount": 1800000000,
+            "price": 1185000000,
+            "price_before_discount": 3000000000,
+            "price_max": 1185000000,
+            "price_max_before_discount": 3000000000,
+            "price_min": 1185000000,
+            "price_min_before_discount": 3000000000,
             "raw_discount": 0,
             "reference_item_id": "",
-            "rich_text_description": null,
+            "rich_text_description": {
+                "paragraph_list": [
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Fungsi : Skipping / alat olahraga",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Bahan : PVC",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Deskripsi Produk :",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "1. tali lompat olahraga profesional dengan desain ilmiah, lebih ringan dan lebih cepat.",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "2. tali dapat disesuaikan, tidak mudah kusut, tali yang tebal, ringan dan portable, dan bahan ramah lingkungan.",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "3. Mendukung rotasi 360 derajat, tidak gagap, tidak kusut, tidak kendur.",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "4. Memiliki berat 96g dan minimalis memudahkan dibawa kemana mana.",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "5. Pegang non-slip buram, pegangan tidak mudah lepas dan panjang 3m",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": 1,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": null,
+                        "type": 10001
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Notes:",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "*jika anda membatalkan pesanan  atau terjadi kendala seperti kehilangan paket yang disebabkan oleh kelalaian pembeli , kami tidak akan bertanggung jawab atas hal tersebut. ",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "*Kerusakan yang terjadi saat pengiriman bukan tanggung jawab kami ya,dimohon untuk klaim ke ekspedisi!",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "*Karena tampilan yang berbeda dan cahaya yang berbeda, kemungkinan gambar yang ditunjukan dengan produk aslinya terdapat sedikit perbedaan. ",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "*Pengukuruan produk juga menggunakan sistem manual,jika terdapat perbedaan ukuran 1-3cm adalah normal dan mohon untuk dimengerti.",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Terima kasih atas pengertian Anda !",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": 1,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": null,
+                        "type": 10001
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Halo, selamat datang di yoo woo home official store \u2714\u2714\u2714",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Ready stock akan dikirim dalam 1-3 hari \u2714\u2714\u2714",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Produk kami berkualitas tinggi dengan harga terjangkau. \u2714\u2714\u2714",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Jangan lupa beri kami 5 bintang ! mohon untuk membaca deskripsi produk kami dengan teliti sebelum membeli !",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": null,
+                        "ratio": null,
+                        "text": "Jika Anda memiliki masalah pembelian, silakan hubungi kami melalui \"obrolan\", kami akan membalas Anda sesegera mungkin. Selamat berbelanja.Terima kasih!",
+                        "type": 0
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": "sg-11134202-23020-dh30j4rvcanv92",
+                        "ratio": 1,
+                        "text": null,
+                        "type": 1
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": "sg-11134202-23020-pe14r6rvcanv4b",
+                        "ratio": 1,
+                        "text": null,
+                        "type": 1
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": "sg-11134202-23020-gtc2j9rvcanv6b",
+                        "ratio": 1,
+                        "text": null,
+                        "type": 1
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": "sg-11134202-23020-d3vvbbsvcanv74",
+                        "ratio": 1,
+                        "text": null,
+                        "type": 1
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": "sg-11134202-23020-hcxl4isvcanv8f",
+                        "ratio": 1,
+                        "text": null,
+                        "type": 1
+                    },
+                    {
+                        "empty_paragraph_count": null,
+                        "img_id": "sg-11134202-23020-3xq95qsvcanvca",
+                        "ratio": 1,
+                        "text": null,
+                        "type": 1
+                    }
+                ]
+            },
             "shipping_icon_type": 0,
-            "shop_id": 2513406,
-            "shop_location": "KOTA JAKARTA TIMUR",
+            "shop_id": 783124108,
+            "shop_location": "KOTA JAKARTA PUSAT",
             "should_show_amp_tag": true,
             "show_discount": 0,
             "show_prescription_feed": false,
             "show_recycling_info": false,
-            "size_chart": null,
+            "size_chart": "",
             "size_chart_info": null,
             "spl_info": {
                 "channel_id": 8002601,
@@ -477,30 +628,28 @@
                 }
             },
             "status": 1,
-            "stock": 3848,
+            "stock": 12263,
             "tier_variations": [
                 {
                     "images": [
-                        "3c94b16ba4f6957ef2b325f886d23fa0",
-                        "d4b7689f54b7371efbdd636da0b45acc",
-                        "715d0945077e53da0022c7c7b7009cc2",
-                        "ab1ea60c650d081185d4b4658f9add84",
-                        "66a9755d6eef41bf86c757dd08ad063e"
+                        "sg-11134201-23010-op2nskyyxsmv06",
+                        "sg-11134201-23010-u94ewqyyxsmv77",
+                        "sg-11134201-23010-vif0ruyyxsmv45",
+                        "sg-11134201-23010-oxr60wyyxsmv43"
                     ],
                     "name": "Warna",
                     "options": [
-                        "Random Boy",
-                        "Random Girl",
-                        "Pink",
-                        "Kuning",
-                        "Biru"
+                        "Hitam",
+                        "Merah",
+                        "Biru",
+                        "Ungu"
                     ],
                     "properties": null,
                     "summed_stocks": null,
                     "type": 0
                 }
             ],
-            "title": "Mainan Gigitan Bayi Baby Water Filled Teether Karakter",
+            "title": "YooWoo Skipping rope / lompat tali / alat olahraga / skipping portable / loncat tali",
             "welcome_package_type": 0,
             "wholesale_tier_list": []
         },
@@ -513,7 +662,7 @@
                     "name": "label_stock",
                     "url": null,
                     "val_id": null,
-                    "value": "3848"
+                    "value": "12263"
                 },
                 {
                     "brand_option": null,
@@ -522,7 +671,7 @@
                     "name": "label_ship_from",
                     "url": null,
                     "val_id": null,
-                    "value": "KOTA JAKARTA TIMUR"
+                    "value": "KOTA JAKARTA PUSAT"
                 }
             ],
             "categories": null
@@ -531,40 +680,37 @@
             "abnormal_status": "",
             "first_tier_variations": [
                 {
-                    "image": "3c94b16ba4f6957ef2b325f886d23fa0",
-                    "name": "Random Boy",
-                    "summed_stock": 0
+                    "image": "sg-11134201-23010-op2nskyyxsmv06",
+                    "name": "Hitam",
+                    "summed_stock": 3535
                 },
                 {
-                    "image": "d4b7689f54b7371efbdd636da0b45acc",
-                    "name": "Random Girl",
-                    "summed_stock": 0
+                    "image": "sg-11134201-23010-u94ewqyyxsmv77",
+                    "name": "Merah",
+                    "summed_stock": 2601
                 },
                 {
-                    "image": "715d0945077e53da0022c7c7b7009cc2",
-                    "name": "Pink",
-                    "summed_stock": 0
-                },
-                {
-                    "image": "ab1ea60c650d081185d4b4658f9add84",
-                    "name": "Kuning",
-                    "summed_stock": 0
-                },
-                {
-                    "image": "66a9755d6eef41bf86c757dd08ad063e",
+                    "image": "sg-11134201-23010-vif0ruyyxsmv45",
                     "name": "Biru",
-                    "summed_stock": 0
+                    "summed_stock": 2531
+                },
+                {
+                    "image": "sg-11134201-23010-oxr60wyyxsmv43",
+                    "name": "Ungu",
+                    "summed_stock": 3596
                 }
             ],
             "has_long_image": null,
             "images": [
-                "3c94b16ba4f6957ef2b325f886d23fa0",
-                "31663982bfaf6faaaf843d1a13f468a0",
-                "bf418084569ae913f4303254c393c8c1",
-                "2218293544be4712bb99c3f1abd69b5c",
-                "d4b7689f54b7371efbdd636da0b45acc",
-                "aefeb81a81a9561b2ae82acdbb58c81f",
-                "12d3069d7cf4f37df84624b178f59f95"
+                "sg-11134201-23010-lvujgaxyxsmv84",
+                "sg-11134201-23010-03dfidxyxsmv60",
+                "sg-11134201-23010-griaugxyxsmvc5",
+                "sg-11134201-23010-1y26vjxyxsmv70",
+                "sg-11134201-23010-dh718mxyxsmva4",
+                "sg-11134201-23010-9d5wzpxyxsmv8f",
+                "sg-11134201-23010-fmfrvtxyxsmvcf",
+                "sg-11134201-23010-9xpj6yxyxsmv92",
+                "sg-11134201-23010-f99e82xyxsmv66"
             ],
             "long_images": null,
             "makeup_preview": null,
@@ -575,72 +721,79 @@
             "shopee_video_rcmd_info": null,
             "shopee_video_req_id": null,
             "skincam": null,
-            "sorted_variation_image_index_list": [],
+            "sorted_variation_image_index_list": [
+                0,
+                1,
+                2,
+                3
+            ],
             "video": {
                 "default_format": {
                     "defn": "V720P",
                     "format": 1600008,
-                    "height": 1280,
+                    "height": 540,
                     "path": "",
                     "profile": "MP4",
-                    "url": "https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOHqYAEx1BsQMEVAEACY.mp4",
-                    "width": 720
+                    "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
+                    "width": 540
                 },
                 "duration": 21,
                 "formats": [
                     {
                         "defn": "V480P",
                         "format": 1600003,
-                        "height": 854,
-                        "path": "c3/98934353/105/A3oxOJeRAMhBBsQMEUQHACY.mp4",
+                        "height": 480,
+                        "path": "api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4",
                         "profile": "MP4",
-                        "url": "https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOJeRAMhBBsQMEUQHACY.mp4",
+                        "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4",
                         "width": 480
                     },
                     {
                         "defn": "V540P",
                         "format": 1600010,
-                        "height": 960,
-                        "path": "c3/98934353/105/A3oxOJBkAJyCBsQMETcDACY.mp4",
+                        "height": 540,
+                        "path": "api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4",
                         "profile": "MP4",
-                        "url": "https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOJBkAJyCBsQMETcDACY.mp4",
+                        "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4",
                         "width": 540
                     },
                     {
                         "defn": "V720P",
                         "format": 1600008,
-                        "height": 1280,
-                        "path": "c3/98934353/105/A3oxOHqYAEx1BsQMEVAEACY.mp4",
+                        "height": 540,
+                        "path": "api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
                         "profile": "MP4",
-                        "url": "https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOHqYAEx1BsQMEVAEACY.mp4",
-                        "width": 720
+                        "url": "https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4",
+                        "width": 540
                     }
                 ],
                 "item_cover": null,
-                "mms_data": "{\"vid\":\"sg_3c10262d-bac4-4876-b39d-f95b8906f075_000221\",\"biz\":107,\"duration\":21100,\"create_time\":1662974522,\"update_time\":1662974526,\"serviceID\":2,\"cover\":\"https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOBWYAGAKBsQMEUUJACc.jpg\",\"formats\":[{\"format\":1600003,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"c3/98934353/105/A3oxOJeRAMhBBsQMEUQHACY.mp4\",\"url\":\"https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOJeRAMhBBsQMEUQHACY.mp4\",\"width\":480,\"height\":854,\"bitrate\":698167,\"abitrate\":48811,\"duration\":21159,\"size\":1993390,\"fps\":25,\"update_time\":1662974529},{\"format\":1600010,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"c3/98934353/105/A3oxOJBkAJyCBsQMETcDACY.mp4\",\"url\":\"https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOJBkAJyCBsQMETcDACY.mp4\",\"width\":540,\"height\":960,\"bitrate\":640795,\"abitrate\":48372,\"duration\":21079,\"size\":1834763,\"fps\":25.04744,\"update_time\":1662974534},{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"c3/98934353/105/A3oxOHqYAEx1BsQMEVAEACY.mp4\",\"url\":\"https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOHqYAEx1BsQMEVAEACY.mp4\",\"width\":720,\"height\":1280,\"bitrate\":1289065,\"abitrate\":97380,\"duration\":21159,\"size\":3684040,\"fps\":25,\"update_time\":1662974533}],\"extend_formats\":{\"H265\":[{\"format\":1600307,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_3c10262d-bac4-4876-b39d-f95b8906f075_000221.16003071683779788.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_3c10262d-bac4-4876-b39d-f95b8906f075_000221.16003071683779788.mp4\",\"width\":540,\"height\":960,\"bitrate\":587833,\"abitrate\":128341,\"duration\":21079,\"size\":1907784,\"fps\":25.04744,\"update_time\":1683779809},{\"format\":1600309,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_3c10262d-bac4-4876-b39d-f95b8906f075_000221.16003091683779788.mp4\",\"url\":\"https://play-ws.vod.shopee.com/api/v4/11110105/mms/sg_3c10262d-bac4-4876-b39d-f95b8906f075_000221.16003091683779788.mp4\",\"width\":720,\"height\":1280,\"bitrate\":906571,\"abitrate\":128341,\"duration\":21079,\"size\":2747644,\"fps\":25.04744,\"update_time\":1683779833}]},\"default_format\":{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"url\":\"https://play-ws.vod.shopee.com/c3/98934353/105/A3oxOHqYAEx1BsQMEVAEACY.mp4\",\"width\":720,\"height\":1280,\"bitrate\":1289065,\"abitrate\":97380,\"duration\":21159,\"size\":3684040,\"fps\":25,\"update_time\":1662974533}}",
-                "thumb_url": "357dc2f5799c12902d24e2003c6c503d",
+                "mms_data": "{\"vid\":\"sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325\",\"biz\":107,\"duration\":20896,\"create_time\":1674033658,\"update_time\":1674033660,\"serviceID\":6,\"cover\":\"https://down-ws-sg.img.susercontent.com/sg-11110105-23010-uyj0r1qkigmv22\",\"formats\":[{\"format\":1600003,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.12000031674033664.mp4\",\"width\":480,\"height\":480,\"bitrate\":631696,\"abitrate\":48328,\"duration\":20959,\"size\":1799995,\"fps\":25,\"update_time\":1674033665},{\"format\":1600010,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000101674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":650029,\"abitrate\":48312,\"duration\":20879,\"size\":1841546,\"fps\":25.04789,\"update_time\":1674033666},{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":727637,\"abitrate\":128264,\"duration\":20879,\"size\":2252727,\"fps\":25.04789,\"update_time\":1674033665}],\"extend_formats\":{\"H265\":[{\"format\":1600307,\"defn\":\"V540P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110107/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003071678318789.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110107/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003071678318789.mp4\",\"width\":540,\"height\":540,\"bitrate\":589044,\"abitrate\":128248,\"duration\":20879,\"size\":1893204,\"fps\":25.04789,\"update_time\":1678318813},{\"format\":1600309,\"defn\":\"V720P\",\"profile\":\"MP4\",\"path\":\"api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003091684254993.mp4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16003091684254993.mp4\",\"width\":540,\"height\":540,\"bitrate\":678314,\"abitrate\":128248,\"duration\":20879,\"size\":2126200,\"fps\":25.04789,\"update_time\":1684255013}]},\"default_format\":{\"format\":1600008,\"defn\":\"V720P\",\"profile\":\"MP4\",\"url\":\"https://down-cvs-sg.vod.susercontent.com/api/v4/11110105/mms/sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325.16000081674033659.mp4\",\"width\":540,\"height\":540,\"bitrate\":727637,\"abitrate\":128264,\"duration\":20879,\"size\":2252727,\"fps\":25.04789,\"update_time\":1674033665}}",
+                "thumb_url": "7f4ba4c8bfdb1630a3a69d7f300c9782",
                 "version": 2,
-                "vid": "sg_3c10262d-bac4-4876-b39d-f95b8906f075_000221",
-                "video_id": "b0862ccf3be2ef65430895fffe9bac0d"
+                "vid": "sg_7e92c8f5-88d9-41ba-b54a-6c48dc9196b3_000325",
+                "video_id": "eeca9805f92c2004c671df15b3a000ec"
             }
         },
         "product_meta": {
             "show_best_price_guarantee": false,
-            "show_lowest_price_guarantee": true,
-            "show_official_shop_label_in_title": false,
-            "show_original_guarantee": false,
-            "show_shopee_verified_label": true
+            "show_lowest_price_guarantee": false,
+            "show_official_shop_label_in_title": true,
+            "show_original_guarantee": true,
+            "show_shopee_verified_label": false
         },
         "product_price": {
-            "discount": 47,
+            "discount": 61,
             "discount_text": ">40%",
+            "hide_discount": false,
             "hide_price": false,
+            "installment_info": null,
             "labels": [
                 {
                     "color": "primary",
-                    "display": "aod",
+                    "display": "bundle_deal",
                     "exclusive_price": null,
-                    "text": "Hadiah Gratis",
+                    "text": "Pilih 5, diskon 2%",
                     "type": 0
                 }
             ],
@@ -649,53 +802,118 @@
             "presale_price": null,
             "price": {
                 "price_mask": null,
-                "range_max": 1090000000,
-                "range_min": 950000000,
-                "single_value": -1
+                "range_max": -1,
+                "range_min": -1,
+                "single_value": 1185000000
             },
             "price_before_discount": {
                 "price_mask": null,
-                "range_max": 2000000000,
-                "range_min": 1800000000,
-                "single_value": -1
+                "range_max": -1,
+                "range_min": -1,
+                "single_value": 3000000000
             },
             "spl_installment_info": null
         },
         "product_review": {
-            "cmt_count": 551,
-            "global_sold": 1255,
-            "historical_sold": 1255,
+            "cmt_count": 5138,
+            "global_sold": 15107,
+            "historical_sold": 15107,
             "liked": false,
-            "liked_count": 318,
+            "liked_count": 8681,
             "rating_count": [
-                551,
+                5140,
                 2,
                 2,
-                13,
-                69,
-                465
+                12,
+                656,
+                4468
             ],
-            "rating_star": 4.802177858439202,
+            "rating_star": 4.864980544747081,
             "review_rcmd_exp_group": null,
             "should_move_ratings_above": null,
-            "total_rating_count": 551
+            "total_rating_count": 5140
         },
         "product_shipping": {
+            "also_available_channel_icon_type": null,
             "also_available_channel_name": "",
             "free_shipping": {
                 "has_fss": true,
                 "min_spend": null
             },
-            "grouped_channel_infos_by_service_type": [],
-            "is_item_with_price_range": true,
+            "grouped_channel_infos_by_service_type": [
+                {
+                    "channel_infos": [
+                        {
+                            "channel_delivery_info": {
+                                "delay_message": null,
+                                "display_mode": null,
+                                "estimated_delivery_date_from": null,
+                                "estimated_delivery_date_to": null,
+                                "estimated_delivery_time_max": null,
+                                "estimated_delivery_time_min": null,
+                                "has_edt": false
+                            },
+                            "channel_id": 80055,
+                            "channel_promotion_infos": null,
+                            "lowest_bpsf_promotion_rule": null,
+                            "name": "Agen SPX Express",
+                            "price": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 0
+                            },
+                            "price_before_discount": null,
+                            "service_type_info": "self_collection",
+                            "shipping_icon_type": null,
+                            "warning": {
+                                "type": "unsupported_address",
+                                "warning_msg": "Layanan Tidak Tersedia"
+                            }
+                        },
+                        {
+                            "channel_delivery_info": {
+                                "delay_message": null,
+                                "display_mode": "edt_by_date",
+                                "estimated_delivery_date_from": 1698314401,
+                                "estimated_delivery_date_to": 1698400801,
+                                "estimated_delivery_time_max": 2,
+                                "estimated_delivery_time_min": 1,
+                                "has_edt": true
+                            },
+                            "channel_id": 80099,
+                            "channel_promotion_infos": null,
+                            "lowest_bpsf_promotion_rule": null,
+                            "name": "SPX Express Point",
+                            "price": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 0
+                            },
+                            "price_before_discount": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 750000000
+                            },
+                            "service_type_info": "self_collection",
+                            "shipping_icon_type": null,
+                            "warning": null
+                        }
+                    ],
+                    "name": "Ambil di Tempat"
+                }
+            ],
+            "is_item_with_price_range": false,
             "pre_order_text": "",
             "pre_selected_shipping_channel": {
                 "channel_delivery_info": {
                     "delay_message": "",
                     "display_mode": "edt_by_date",
-                    "estimated_delivery_date_from": 1698284874,
-                    "estimated_delivery_date_to": 1698457674,
-                    "estimated_delivery_time_max": 3,
+                    "estimated_delivery_date_from": 1698314401,
+                    "estimated_delivery_date_to": 1698400801,
+                    "estimated_delivery_time_max": 2,
                     "estimated_delivery_time_min": 1,
                     "has_edt": true
                 },
@@ -715,6 +933,7 @@
                     "range_min": -1,
                     "single_value": 900000000
                 },
+                "service_type_info": "regular",
                 "shipping_icon_type": null,
                 "warning": {
                     "type": "",
@@ -728,7 +947,7 @@
                     "range_min": 0,
                     "single_value": -1
                 },
-                "ship_from_location": "KOTA JAKARTA TIMUR",
+                "ship_from_location": "KOTA JAKARTA PUSAT",
                 "shipping_icon_type": 0,
                 "warning": null
             },
@@ -739,9 +958,9 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698284874,
-                        "estimated_delivery_date_to": 1698457674,
-                        "estimated_delivery_time_max": 3,
+                        "estimated_delivery_date_from": 1698314401,
+                        "estimated_delivery_date_to": 1698400801,
+                        "estimated_delivery_time_max": 2,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
                     },
@@ -761,15 +980,44 @@
                         "range_min": -1,
                         "single_value": 900000000
                     },
+                    "service_type_info": "regular",
                     "shipping_icon_type": null,
                     "warning": null
                 },
                 {
                     "channel_delivery_info": {
                         "delay_message": null,
+                        "display_mode": null,
+                        "estimated_delivery_date_from": null,
+                        "estimated_delivery_date_to": null,
+                        "estimated_delivery_time_max": null,
+                        "estimated_delivery_time_min": null,
+                        "has_edt": false
+                    },
+                    "channel_id": 8005,
+                    "channel_promotion_infos": null,
+                    "lowest_bpsf_promotion_rule": null,
+                    "name": "Hemat",
+                    "price": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 0
+                    },
+                    "price_before_discount": null,
+                    "service_type_info": "regular",
+                    "shipping_icon_type": null,
+                    "warning": {
+                        "type": "shipping_option_not_supported",
+                        "warning_msg": "Jasa kirim tidak didukung"
+                    }
+                },
+                {
+                    "channel_delivery_info": {
+                        "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698284874,
-                        "estimated_delivery_date_to": 1698457674,
+                        "estimated_delivery_date_from": 1698314401,
+                        "estimated_delivery_date_to": 1698487201,
                         "estimated_delivery_time_max": 3,
                         "estimated_delivery_time_min": 1,
                         "has_edt": true
@@ -790,6 +1038,7 @@
                         "range_min": -1,
                         "single_value": 1500000000
                     },
+                    "service_type_info": "regular_cargo",
                     "shipping_icon_type": null,
                     "warning": null
                 },
@@ -797,10 +1046,10 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698198474,
-                        "estimated_delivery_date_to": 1698198474,
-                        "estimated_delivery_time_max": 0,
-                        "estimated_delivery_time_min": 0,
+                        "estimated_delivery_date_from": 1698314401,
+                        "estimated_delivery_date_to": 1698314401,
+                        "estimated_delivery_time_max": 1,
+                        "estimated_delivery_time_min": 1,
                         "has_edt": true
                     },
                     "channel_id": 8001,
@@ -814,6 +1063,7 @@
                         "single_value": 1300000000
                     },
                     "price_before_discount": null,
+                    "service_type_info": "same_day",
                     "shipping_icon_type": null,
                     "warning": null
                 },
@@ -821,14 +1071,27 @@
                     "channel_delivery_info": {
                         "delay_message": null,
                         "display_mode": "edt_by_date",
-                        "estimated_delivery_date_from": 1698198474,
-                        "estimated_delivery_date_to": 1698198474,
-                        "estimated_delivery_time_max": 0,
-                        "estimated_delivery_time_min": 0,
+                        "estimated_delivery_date_from": 1698314401,
+                        "estimated_delivery_date_to": 1698314401,
+                        "estimated_delivery_time_max": 1,
+                        "estimated_delivery_time_min": 1,
                         "has_edt": true
                     },
                     "channel_id": 8000,
                     "channel_promotion_infos": [
+                        {
+                            "cap": 1500000000,
+                            "discount_off": 1500000000,
+                            "display_mode": 1,
+                            "min_spend": {
+                                "price_mask": null,
+                                "range_max": -1,
+                                "range_min": -1,
+                                "single_value": 0
+                            },
+                            "rule_id": 2606955,
+                            "type": 0
+                        },
                         {
                             "cap": null,
                             "discount_off": null,
@@ -850,9 +1113,9 @@
                                 "price_mask": null,
                                 "range_max": -1,
                                 "range_min": -1,
-                                "single_value": 100000000000
+                                "single_value": 30000000000
                             },
-                            "rule_id": 1772562,
+                            "rule_id": 1971209,
                             "type": 1
                         }
                     ],
@@ -860,11 +1123,42 @@
                     "name": "Instant - 2 Jam",
                     "price": {
                         "price_mask": null,
-                        "range_max": 1800000000,
+                        "range_max": 300000000,
                         "range_min": 0,
                         "single_value": -1
                     },
+                    "price_before_discount": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 1800000000
+                    },
+                    "service_type_info": "instant",
+                    "shipping_icon_type": null,
+                    "warning": null
+                },
+                {
+                    "channel_delivery_info": {
+                        "delay_message": null,
+                        "display_mode": "edt_by_date",
+                        "estimated_delivery_date_from": 1698314401,
+                        "estimated_delivery_date_to": 1698400801,
+                        "estimated_delivery_time_max": 2,
+                        "estimated_delivery_time_min": 1,
+                        "has_edt": true
+                    },
+                    "channel_id": 8002,
+                    "channel_promotion_infos": null,
+                    "lowest_bpsf_promotion_rule": null,
+                    "name": "Next Day",
+                    "price": {
+                        "price_mask": null,
+                        "range_max": -1,
+                        "range_min": -1,
+                        "single_value": 1800000000
+                    },
                     "price_before_discount": null,
+                    "service_type_info": "next_day",
                     "shipping_icon_type": null,
                     "warning": null
                 }
@@ -872,7 +1166,17 @@
         },
         "promotion_info": {
             "installment": null,
-            "insurance": null,
+            "insurance": {
+                "rows": [
+                    {
+                        "badge_text": "",
+                        "product_id": "1749285878540410882",
+                        "text": "Pelajari",
+                        "title": "Proteksi Kerusakan +",
+                        "url": "https://insurance.shopee.co.id/ec/ec-pdp.html?from=pdp&product_id=1749285878540410882"
+                    }
+                ]
+            },
             "item_installment_eligibility": {
                 "is_cc_installment_payment_eligible": false,
                 "is_non_cc_installment_payment_eligible": false
@@ -890,40 +1194,363 @@
         },
         "shop_detailed": {
             "account": {
-                "portrait": "85a394a57cc1ab9742e8110837bb5c45",
+                "portrait": "17180065af603e680656aa4283a55674",
                 "status": 1,
-                "username": "bebabyshop"
+                "username": "yoowooofficial.id"
             },
-            "ctime": 1451472399,
+            "ctime": 1653907092,
             "favorite_shop_info": null,
-            "follower_count": 58818,
+            "follower_count": 251638,
             "is_3pf": false,
             "is_individual_seller": null,
             "is_mart": false,
-            "is_official_shop": false,
-            "is_preferred_plus_seller": true,
-            "is_shopee_verified": true,
-            "item_count": 629,
-            "last_active_time": 1698198149,
-            "name": "bebaby shop",
-            "place": "KOTA JAKARTA TIMUR - CIPAYUNG, DKI JAKARTA, ID",
-            "rating_bad": 423,
-            "rating_good": 91601,
-            "rating_normal": 3615,
-            "rating_star": 4.763989,
-            "response_rate": 90,
-            "response_time": 5321,
-            "session_info": null,
-            "session_infos": null,
-            "shop_location": "KOTA JAKARTA TIMUR",
-            "shopid": 2513406,
-            "show_official_shop_label": false,
-            "sold_total": 270492,
+            "is_official_shop": true,
+            "is_preferred_plus_seller": false,
+            "is_shopee_verified": false,
+            "item_count": 213,
+            "last_active_time": 1698227836,
+            "name": "Yoowoo Official Shop",
+            "place": "KOTA JAKARTA PUSAT - SAWAH BESAR, DKI JAKARTA, ID",
+            "rating_bad": 343,
+            "rating_good": 277657,
+            "rating_normal": 1398,
+            "rating_star": 4.876125,
+            "response_rate": 100,
+            "response_time": 49,
+            "session_info": {
+                "is_show": true,
+                "preview_image": "id-11134104-7quky-lkgruc17vwwkba",
+                "session_id": 44498066,
+                "session_url": "https://play-tx-src.livestream.shopee.co.id/live/id-live-1935721959643648-44498066.flv?auditkey=1.0~TXudvqYIlk3umqDMoTsIo1kRrNfI8EtKuT7Wlh20BhvjTF4ICP0hd-FqiF10qyf8FfgFUBnadQJ08asGCDVLVz976n_e1_K0I_MhT-fW6zM~1d82466d199fc9cec5428af42a3ed76b621a02b3361d291aa273eb3a86c37561&cdnID=TXCLOUD&expire_ts=1698229801",
+                "view_count": 13
+            },
+            "session_infos": [
+                {
+                    "is_show": true,
+                    "preview_image": "id-11134104-7quky-lkgruc17vwwkba",
+                    "session_id": 44498066,
+                    "session_url": "https://play-tx-src.livestream.shopee.co.id/live/id-live-1935721959643648-44498066.flv?auditkey=1.0~TXudvqYIlk3umqDMoTsIo1kRrNfI8EtKuT7Wlh20BhvjTF4ICP0hd-FqiF10qyf8FfgFUBnadQJ08asGCDVLVz976n_e1_K0I_MhT-fW6zM~1d82466d199fc9cec5428af42a3ed76b621a02b3361d291aa273eb3a86c37561&cdnID=TXCLOUD&expire_ts=1698229801",
+                    "view_count": 13
+                }
+            ],
+            "shop_location": "KOTA JAKARTA PUSAT",
+            "shopid": 783124108,
+            "show_official_shop_label": true,
+            "sold_total": 1266135,
             "status": 1,
-            "userid": 2514685,
+            "userid": 783107861,
             "vacation": false
         },
-        "shop_vouchers": [],
+        "shop_vouchers": [
+            {
+                "action": null,
+                "airpay_opv_extra_info": null,
+                "claim_start_time": null,
+                "coin_cap": null,
+                "coin_earned": null,
+                "coin_percentage": null,
+                "collect_time": null,
+                "current_spend": null,
+                "customer_reference_id": null,
+                "customised_flag": null,
+                "customised_labels": [
+                    {
+                        "content": "Voucher Pembelian Pertama"
+                    }
+                ],
+                "customised_mall_name": null,
+                "customised_product_scope_tag_image_hash": null,
+                "customised_product_scope_tags": null,
+                "description": null,
+                "disabled": null,
+                "discount_cap": 0,
+                "discount_percentage": 0,
+                "discount_value": 200000000,
+                "display_labels": null,
+                "dp_category_name": null,
+                "end_time": 1700712240,
+                "error_code": 0,
+                "fixed_flag": null,
+                "fsv_voucher_card_ui_info": null,
+                "fully_redeemed": null,
+                "has_expired": null,
+                "icon_hash": "17180065af603e680656aa4283a55674",
+                "icon_text": "Yoowoo Official Shop",
+                "icon_url": null,
+                "invalid_message": null,
+                "invalid_message_code": null,
+                "is_claimed_before": false,
+                "is_customised_icon": null,
+                "is_shop_official": true,
+                "is_shop_preferred": false,
+                "left_count": null,
+                "min_spend": 1000000000,
+                "new_user_only": null,
+                "now_food_extra_info": null,
+                "partner_extra_info": null,
+                "percentage_claimed": 0,
+                "percentage_used": 37,
+                "platform_type": null,
+                "product_limit": false,
+                "promotionid": 698048116932608,
+                "quota_type": 1,
+                "remaining_usage_limit": 1,
+                "reward_cap": 0,
+                "reward_percentage": 0,
+                "reward_type": 0,
+                "reward_value": 200000000,
+                "shop_count": null,
+                "shop_id": 783124108,
+                "shop_logo": null,
+                "shop_name": null,
+                "shopee_wallet_only": null,
+                "signature": "ab5ee437a84aa3b4a5111489875a0dc967d0305d6690e1307a64a799ba1f337c",
+                "small_icon_list": null,
+                "start_time": 1692673440,
+                "sub_icon_text": null,
+                "title": null,
+                "ui_display_type": null,
+                "usage_limit": null,
+                "usage_limit_per_user": 1,
+                "use_link": null,
+                "use_type": null,
+                "used_count": null,
+                "used_price": null,
+                "valid_days": null,
+                "voucher_code": "YOOW65987",
+                "voucher_external_market_type": null,
+                "voucher_market_type": null,
+                "wallet_redeemable": null
+            },
+            {
+                "action": null,
+                "airpay_opv_extra_info": null,
+                "claim_start_time": null,
+                "coin_cap": null,
+                "coin_earned": null,
+                "coin_percentage": null,
+                "collect_time": null,
+                "current_spend": null,
+                "customer_reference_id": null,
+                "customised_flag": null,
+                "customised_labels": [],
+                "customised_mall_name": null,
+                "customised_product_scope_tag_image_hash": null,
+                "customised_product_scope_tags": null,
+                "description": null,
+                "disabled": null,
+                "discount_cap": 0,
+                "discount_percentage": 0,
+                "discount_value": 500000000,
+                "display_labels": null,
+                "dp_category_name": null,
+                "end_time": 1705165140,
+                "error_code": 9,
+                "fixed_flag": null,
+                "fsv_voucher_card_ui_info": null,
+                "fully_redeemed": null,
+                "has_expired": null,
+                "icon_hash": "17180065af603e680656aa4283a55674",
+                "icon_text": "Yoowoo Official Shop",
+                "icon_url": null,
+                "invalid_message": null,
+                "invalid_message_code": null,
+                "is_claimed_before": false,
+                "is_customised_icon": null,
+                "is_shop_official": true,
+                "is_shop_preferred": false,
+                "left_count": null,
+                "min_spend": 10000000000,
+                "new_user_only": null,
+                "now_food_extra_info": null,
+                "partner_extra_info": null,
+                "percentage_claimed": 0,
+                "percentage_used": 16,
+                "platform_type": null,
+                "product_limit": false,
+                "promotionid": 729359409774592,
+                "quota_type": 1,
+                "remaining_usage_limit": 1,
+                "reward_cap": 0,
+                "reward_percentage": 0,
+                "reward_type": 0,
+                "reward_value": 500000000,
+                "shop_count": null,
+                "shop_id": 783124108,
+                "shop_logo": null,
+                "shop_name": null,
+                "shopee_wallet_only": null,
+                "signature": "f9b34f72bfb4e9f952b3afa0e4d3ffe4d39d5b3aa5627c8965f0237009b2fb38",
+                "small_icon_list": null,
+                "start_time": 1697183220,
+                "sub_icon_text": null,
+                "title": null,
+                "ui_display_type": null,
+                "usage_limit": null,
+                "usage_limit_per_user": 1,
+                "use_link": null,
+                "use_type": null,
+                "used_count": null,
+                "used_price": null,
+                "valid_days": null,
+                "voucher_code": "YOOW8989",
+                "voucher_external_market_type": null,
+                "voucher_market_type": null,
+                "wallet_redeemable": null
+            },
+            {
+                "action": null,
+                "airpay_opv_extra_info": null,
+                "claim_start_time": null,
+                "coin_cap": null,
+                "coin_earned": null,
+                "coin_percentage": null,
+                "collect_time": null,
+                "current_spend": null,
+                "customer_reference_id": null,
+                "customised_flag": null,
+                "customised_labels": [],
+                "customised_mall_name": null,
+                "customised_product_scope_tag_image_hash": null,
+                "customised_product_scope_tags": null,
+                "description": null,
+                "disabled": null,
+                "discount_cap": 0,
+                "discount_percentage": 0,
+                "discount_value": 1000000000,
+                "display_labels": null,
+                "dp_category_name": null,
+                "end_time": 1705165140,
+                "error_code": 9,
+                "fixed_flag": null,
+                "fsv_voucher_card_ui_info": null,
+                "fully_redeemed": null,
+                "has_expired": null,
+                "icon_hash": "17180065af603e680656aa4283a55674",
+                "icon_text": "Yoowoo Official Shop",
+                "icon_url": null,
+                "invalid_message": null,
+                "invalid_message_code": null,
+                "is_claimed_before": false,
+                "is_customised_icon": null,
+                "is_shop_official": true,
+                "is_shop_preferred": false,
+                "left_count": null,
+                "min_spend": 20000000000,
+                "new_user_only": null,
+                "now_food_extra_info": null,
+                "partner_extra_info": null,
+                "percentage_claimed": 0,
+                "percentage_used": 21,
+                "platform_type": null,
+                "product_limit": false,
+                "promotionid": 729358780628992,
+                "quota_type": 1,
+                "remaining_usage_limit": 1,
+                "reward_cap": 0,
+                "reward_percentage": 0,
+                "reward_type": 0,
+                "reward_value": 1000000000,
+                "shop_count": null,
+                "shop_id": 783124108,
+                "shop_logo": null,
+                "shop_name": null,
+                "shopee_wallet_only": null,
+                "signature": "4c05270d818e4502230f3624f45ee3da4eb1665eb4e701884a3b6a68dc498d7c",
+                "small_icon_list": null,
+                "start_time": 1697183040,
+                "sub_icon_text": null,
+                "title": null,
+                "ui_display_type": null,
+                "usage_limit": null,
+                "usage_limit_per_user": 1,
+                "use_link": null,
+                "use_type": null,
+                "used_count": null,
+                "used_price": null,
+                "valid_days": null,
+                "voucher_code": "YOOW5678",
+                "voucher_external_market_type": null,
+                "voucher_market_type": null,
+                "wallet_redeemable": null
+            },
+            {
+                "action": null,
+                "airpay_opv_extra_info": null,
+                "claim_start_time": null,
+                "coin_cap": null,
+                "coin_earned": null,
+                "coin_percentage": null,
+                "collect_time": null,
+                "current_spend": null,
+                "customer_reference_id": null,
+                "customised_flag": null,
+                "customised_labels": [],
+                "customised_mall_name": null,
+                "customised_product_scope_tag_image_hash": null,
+                "customised_product_scope_tags": null,
+                "description": null,
+                "disabled": null,
+                "discount_cap": 0,
+                "discount_percentage": 0,
+                "discount_value": 1500000000,
+                "display_labels": null,
+                "dp_category_name": null,
+                "end_time": 1705165140,
+                "error_code": 9,
+                "fixed_flag": null,
+                "fsv_voucher_card_ui_info": null,
+                "fully_redeemed": null,
+                "has_expired": null,
+                "icon_hash": "17180065af603e680656aa4283a55674",
+                "icon_text": "Yoowoo Official Shop",
+                "icon_url": null,
+                "invalid_message": null,
+                "invalid_message_code": null,
+                "is_claimed_before": false,
+                "is_customised_icon": null,
+                "is_shop_official": true,
+                "is_shop_preferred": false,
+                "left_count": null,
+                "min_spend": 30000000000,
+                "new_user_only": null,
+                "now_food_extra_info": null,
+                "partner_extra_info": null,
+                "percentage_claimed": 0,
+                "percentage_used": 10,
+                "platform_type": null,
+                "product_limit": false,
+                "promotionid": 729357480394752,
+                "quota_type": 1,
+                "remaining_usage_limit": 1,
+                "reward_cap": 0,
+                "reward_percentage": 0,
+                "reward_type": 0,
+                "reward_value": 1500000000,
+                "shop_count": null,
+                "shop_id": 783124108,
+                "shop_logo": null,
+                "shop_name": null,
+                "shopee_wallet_only": null,
+                "signature": "0acefd4e053850bd1b3af59f90bc344e72c1ca67afc9a6d7350293b6811d8053",
+                "small_icon_list": null,
+                "start_time": 1697183100,
+                "sub_icon_text": null,
+                "title": null,
+                "ui_display_type": null,
+                "usage_limit": null,
+                "usage_limit_per_user": 1,
+                "use_link": null,
+                "use_type": null,
+                "used_count": null,
+                "used_price": null,
+                "valid_days": null,
+                "voucher_code": "YOOW1212",
+                "voucher_external_market_type": null,
+                "voucher_market_type": null,
+                "wallet_redeemable": null
+            }
+        ],
         "tax_disclaimer": null
     },
     "error": null,

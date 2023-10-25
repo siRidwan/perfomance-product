@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 
 def postCompetitors(itemid, shopid, image, title, ctime, normal_stock, global_sold, sold, price, total_rating_count, liked_count, rating_star, model_id, model_name, model_normal_stock, model_sold, model_price, model_image, username, location, store_name):
-    url = "http://localhost/lte/api/v1.0/mp_abc_class/competitors/get-competitors-data.php"
+    url = "https://commercial.bisbas.id/api/v1.0/mp_abc_class/competitor_analysis/post_competitor_data.php"
     payload = json.dumps({
     "itemid": itemid,
     "shopid": shopid,
@@ -47,8 +47,17 @@ def postCompetitors(itemid, shopid, image, title, ctime, normal_stock, global_so
     else:
         price("eror api post")
 
+def get_data():
+    url = "https://commercial.bisbas.id/api/v1.0/mp_abc_class/competitor_analysis/get_competitor_data.php"
+    payload = {}
+    headers = {}
+    response = requests.request("GET", url, headers=headers, data=payload)
 
-competitors_data    = database.query("SELECT `ids`, `sku`, `url`, `itemId`, `shopId`, `created_at`, `updated_at` FROM `competitors_data`")
+    if response.status_code == 200:
+        return response.json()
+
+
+# competitors_data    = database.query("SELECT `ids`, `sku`, `url`, `itemId`, `shopId`, `created_at`, `updated_at` FROM `competitors_data`")
 
 # Inisialisasi driver Selenium sesuai dengan peramban yang ingin Anda gunakan
 option = webdriver.ChromeOptions()
@@ -136,14 +145,18 @@ def consoleStore(shopid,item_id):
     result = driver.execute_script(script)
     return result
 asd = []
-for competitors in competitors_data:
+datas = get_data()
+
+for competitors in get_data():
+    print(competitors)
     # shop_id = 389631657
     # item_id = 23947956290
-    ids         = competitors[0]
-    sku         = competitors[1]
-    url         = competitors[2]
-    item_id     = competitors[3]
-    shop_id     = competitors[4]
+    ids         = competitors['ids']
+    sku         = competitors['sku']
+    url         = competitors['url']
+    item_id     = competitors['itemId']
+    shop_id     = competitors['shopId']
+    warehouse_id= competitors['warehouse_id']
     product_data    = consoleProduct(shop_id,item_id)
     # product_data    = json.load(open("scraping-data/product.json"))
     # itemid  = item_id
@@ -157,6 +170,11 @@ for competitors in competitors_data:
     image               = product_data['data']['product_images']['images'][0]
     normal_stock        = product_data['data']['item']['normal_stock']
     price               = product_data['data']['item']['price']
+    with open("scraping-data/product.json", "w") as w:
+        w.write(json.dumps(consoleProduct(shop_id,item_id), indent=4))
+
+    with open("scraping-data/store.json", "w") as w:
+        w.write(json.dumps(consoleStore(shop_id,item_id), indent=4))
     place               = product_data['data']['shop_detailed']['place']
     username            = product_data['data']['shop_detailed']['account']['username']
     store_name          = product_data['data']['shop_detailed']['name']
@@ -204,11 +222,6 @@ for competitors in competitors_data:
 # with open("scraping-data/datas.json", "w") as w:
 #     w.write(json.dumps(asd, indent=4))
 
-# with open("scraping-data/product.json", "w") as w:
-#     w.write(json.dumps(consoleProduct(shop_id,item_id), indent=4))
-
-# with open("scraping-data/store.json", "w") as w:
-#     w.write(json.dumps(consoleStore(shop_id,item_id), indent=4))
 # print(consoleStore(389631657,23947956290))
 # print(consoleProduct(3722694,8433542870))
 # Tutup peramban
