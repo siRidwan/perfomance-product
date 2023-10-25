@@ -1,31 +1,76 @@
+import sys
+sys.path.append("C:/Users/INFINITY/EMBULAH/database/")
+import database
 from selenium import webdriver
 import json
+import requests
+from datetime import datetime
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 
+def postCompetitors(itemid, shopid, image, title, ctime, normal_stock, global_sold, sold, price, total_rating_count, liked_count, rating_star, model_id, model_name, model_normal_stock, model_sold, model_price, model_image, username, location, store_name):
+    url = "http://localhost/lte/api/v1.0/mp_abc_class/competitors/get-competitors-data.php"
+    payload = json.dumps({
+    "itemid": itemid,
+    "shopid": shopid,
+    "image": image,
+    "title": title,
+    "ctime": ctime,
+    "normal_stock": normal_stock,
+    "global_sold": global_sold,
+    "sold": sold,
+    "price": price,
+    "total_rating_count": total_rating_count,
+    "liked_count": liked_count,
+    "rating_star": rating_star,
+    "model_id": model_id,
+    "model_name": model_name,
+    "model_normal_stock": model_normal_stock,
+    "model_sold": model_sold,
+    "model_price": model_price,
+    "model_image": model_image,
+    "username": username,
+    "location": location,
+    "store_name": store_name
+    })
+    headers = {
+    'Content-Type': 'application/json'
+    }
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+
+    if response.status_code == 200:
+        print(response.text)
+        'sd'
+    else:
+        price("eror api post")
+
+
+competitors_data    = database.query("SELECT `ids`, `sku`, `url`, `itemId`, `shopId`, `created_at`, `updated_at` FROM `competitors_data`")
+
 # Inisialisasi driver Selenium sesuai dengan peramban yang ingin Anda gunakan
-# option = webdriver.ChromeOptions()
-# option.add_argument("--headless")
-# driver = webdriver.Chrome()  # Ubah sesuai dengan peramban yang Anda gunakan
-# cookies = {
-#         "domain": ".shopee.co.id",
-#         "expiry": 1732673513,
-#         "httpOnly": True,
-#         "name": "SPC_EC",
-#         "path": "/",
-#         "sameSite": "Lax",
-#         "secure": True,
-#         "value": "cjBxMFltWDNTdWxCdzBTSyc2qAgIdfHP0E9dyiQ9F2pcOA6FKyKyam/1IP/kPlSE4LvPMcEUkREmsCRb1GYfOs2cdsraee9NejYgbyCdutElpBaF7EYU9iyBW7fJH7JTeY0XcUCWb3HZSBFfIqlj1mzxra4WmMIToC5OjQY2aBUZ2vSbL4gJ5lYGOJ5CRqy4"
-#     }
-# # Buka situs web yang ingin Anda kunjungi
-# driver.get('https://shopee.co.id/')
-# driver.add_cookie(json.loads(json.dumps(cookies)))
-# wait = WebDriverWait(driver, 60)
-# wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@class='shopee-searchbar-input__input']")))
-# driver.get('https://shopee.co.id/')
-# wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@class='shopee-searchbar-input__input']")))
+option = webdriver.ChromeOptions()
+option.add_argument("--headless")
+driver = webdriver.Chrome()  # Ubah sesuai dengan peramban yang Anda gunakan
+cookies = {
+        "domain": ".shopee.co.id",
+        "expiry": 1732673513,
+        "httpOnly": True,
+        "name": "SPC_EC",
+        "path": "/",
+        "sameSite": "Lax",
+        "secure": True,
+        "value": "cjBxMFltWDNTdWxCdzBTSyc2qAgIdfHP0E9dyiQ9F2pcOA6FKyKyam/1IP/kPlSE4LvPMcEUkREmsCRb1GYfOs2cdsraee9NejYgbyCdutElpBaF7EYU9iyBW7fJH7JTeY0XcUCWb3HZSBFfIqlj1mzxra4WmMIToC5OjQY2aBUZ2vSbL4gJ5lYGOJ5CRqy4"
+    }
+# Buka situs web yang ingin Anda kunjungi
+driver.get('https://shopee.co.id/')
+driver.add_cookie(json.loads(json.dumps(cookies)))
+wait = WebDriverWait(driver, 60)
+wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@class='shopee-searchbar-input__input']")))
+driver.get('https://shopee.co.id/')
+wait.until(EC.element_to_be_clickable((By.XPATH,"//input[@class='shopee-searchbar-input__input']")))
 
 
 # sleep(60)
@@ -90,55 +135,81 @@ def consoleStore(shopid,item_id):
     script  = request_body + requestOptions
     result = driver.execute_script(script)
     return result
-shop_id = 389631657
-item_id = 23947956290
-# product_data    = consoleProduct(shop_id,item_id)
-product_data    = json.load(open("scraping-data/product.json"))
-# itemid  = item_id
-for models in product_data['data']['item']['models']:
-    model_id    = models['model_id']
-    model_name  = models['name']
-    model_normal_stock    = models['normal_stock']
-    model_sold     = models['sold']
-    model_price     = models['price']
-title               = product_data['data']['item']['title']
-ctime               = product_data['data']['item']['ctime']
-global_sold         = product_data['data']['product_review']['global_sold']
-total_rating_count  = product_data['data']['product_review']['total_rating_count']
-liked_count         = product_data['data']['product_review']['liked_count']
-rating_star         = product_data['data']['product_review']['rating_star']
-image               = product_data['data']['product_images']['images'][0]
-# store_data      = consoleStore(shop_id,item_id)['data']['decoration'][3]
-store_data      = json.load(open("scraping-data/store.json"))['data']['decoration'][3]
-for items in store_data['recommendations']['items']:
-    if item_id == items['itemid']:
-        sold            = items['sold']
-print(f"""
-shop_id = {shop_id}
-item_id = {item_id}
-model_id    = {model_id}
-model_name  = {model_name}
-model_normal_stock  = {model_normal_stock}
-model_sold  = {model_sold}
-model_price = {model_price}
-title   = {title}
-ctime   = {ctime}
-global_sold = {global_sold}
-total_rating_count  = {total_rating_count}
-liked_count = {liked_count}
-rating_star = {rating_star}
-image   = {image}
-sold    = {sold}
-""")
+asd = []
+for competitors in competitors_data:
+    # shop_id = 389631657
+    # item_id = 23947956290
+    ids         = competitors[0]
+    sku         = competitors[1]
+    url         = competitors[2]
+    item_id     = competitors[3]
+    shop_id     = competitors[4]
+    product_data    = consoleProduct(shop_id,item_id)
+    # product_data    = json.load(open("scraping-data/product.json"))
+    # itemid  = item_id
+    title               = product_data['data']['item']['title']
+    ctime               = product_data['data']['item']['ctime']
+    date_time           = datetime.fromtimestamp(ctime).strftime("%Y-%m-%d")
+    global_sold         = product_data['data']['product_review']['global_sold']
+    total_rating_count  = product_data['data']['product_review']['total_rating_count']
+    liked_count         = product_data['data']['product_review']['liked_count']
+    rating_star         = float(product_data['data']['product_review']['rating_star'])
+    image               = product_data['data']['product_images']['images'][0]
+    normal_stock        = product_data['data']['item']['normal_stock']
+    price               = product_data['data']['item']['price']
+    place               = product_data['data']['shop_detailed']['place']
+    username            = product_data['data']['shop_detailed']['account']['username']
+    store_name          = product_data['data']['shop_detailed']['name']
+    decoration          = consoleStore(shop_id,item_id)['data']['decoration']
+    # decoration          = json.load(open("scraping-data/store.json"))['data']['decoration']
+    for recomend in decoration:
+        if int(recomend['type']) == 15:
+            recommendations = recomend['recommendations']
+            break
+    for items in recommendations['items']:
+        if item_id == items['itemid']:
+            sold            = items['sold']
+    for models in product_data['data']['item']['models']:
+        model_id        = models['model_id']
+        model_name      = models['name']
+        model_normal_stock    = models['normal_stock']
+        model_sold      = models['sold']
+        model_price     = int(float(int(models['price'])/100000))
+        model_image     = ''
+        postCompetitors(item_id, shop_id, image, title, date_time, normal_stock, global_sold, sold, price, total_rating_count, liked_count, rating_star, model_id, model_name, model_normal_stock, model_sold, model_price, model_image, username, place, store_name)
+        # asd.append({
+        #     "itemid"   : item_id,
+        #     "shopid"   : shop_id,
+        #     "image" : image,
+        #     "title" : title,
+        #     "ctime" : date_time,
+        #     "normal_stock"  : normal_stock,
+        #     "global_sold"   : global_sold,
+        #     "sold"  : sold,
+        #     "price" : price,
+        #     "total_rating_count"    : total_rating_count,
+        #     "liked_count"   : liked_count,
+        #     "rating_star"   : rating_star,
+        #     "model_id"  : model_id,
+        #     "model_name"    : model_name,
+        #     "model_normal_stock"    : model_normal_stock,
+        #     "model_sold"    : model_sold,
+        #     "model_price"   : model_price,
+        #     "model_image"   : model_image,
+        #     "username"  : username,
+        #     "location" : place,
+        #     "store_name"    : store_name
+        #     })
 # shopid
+# with open("scraping-data/datas.json", "w") as w:
+#     w.write(json.dumps(asd, indent=4))
 
 # with open("scraping-data/product.json", "w") as w:
-#     w.write(json.dumps(consoleProduct(389631657,23947956290), indent=4))
+#     w.write(json.dumps(consoleProduct(shop_id,item_id), indent=4))
 
 # with open("scraping-data/store.json", "w") as w:
-#     w.write(json.dumps(consoleStore(389631657,23947956290), indent=4))
-
+#     w.write(json.dumps(consoleStore(shop_id,item_id), indent=4))
 # print(consoleStore(389631657,23947956290))
 # print(consoleProduct(3722694,8433542870))
 # Tutup peramban
-# driver.quit()
+driver.quit()

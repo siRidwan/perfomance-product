@@ -1,0 +1,36 @@
+SELECT
+competitors_product.image AS images,
+competitors_product.title AS title,
+competitors_product.ctime AS ctime,
+competitors_product.normal_stock AS normal_stock,
+competitors_product.global_sold AS global_sold,
+competitors_product.sold AS sold,
+competitors_product.price AS price,
+competitors_product.total_rating_count AS total_rating_count,
+competitors_product.liked_count AS liked_count,
+competitors_product_models.model_id AS model_id,
+competitors_product_models.model_name AS model_name,
+competitors_product_models.model_name AS model_name,
+competitors_product_models.model_sold AS model_sold,
+competitors_product_models.model_price AS model_price,
+competitors_product_models.model_image AS model_image,
+competitors_store.username AS username,
+competitors_store.location AS place,
+competitors_store.store_name AS store_name,
+competitors_data.sku AS sku,
+((competitors_product.sold / 30) * DAY(NOW())) * competitors_product.price AS omzet_bulan,
+competitors_product.sold * competitors_product.price AS omzet_bulan_terakhir,
+(competitors_product.sold / 30) * DAY(NOW()) AS terjual_bulan,
+(((competitors_product.global_sold / (FLOOR((UNIX_TIMESTAMP(CURDATE()) - UNIX_TIMESTAMP(competitors_product.ctime)) / (60*60*24))))*30)-competitors_product.sold)/competitors_product.sold AS trend,
+(competitors_product.normal_stock * competitors_product.price) AS sellingPriceStock,
+competitors_product.global_sold AS global_sold,
+competitors_product.global_sold * competitors_product.price AS global_sold,
+tria_stock.item_name AS item_name
+FROM
+competitors_product
+JOIN competitors_product_models
+ON competitors_product.itemid = competitors_product_models.item_id
+JOIN competitors_store
+ON competitors_product.shopid = competitors_store.shopid
+RIGHT JOIN competitors_data
+ON competitors_product.itemid = competitors_data.itemid
