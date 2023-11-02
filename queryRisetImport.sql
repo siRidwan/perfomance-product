@@ -1,0 +1,46 @@
+SELECT
+
+FROM
+(SELECT
+mp_riset_products_import.kode AS kode,
+mp_riset_products_import.prodName AS prodName,
+mp_riset_products_import.urlLokal AS urlLokal,
+mp_riset_products_import.priceLokal AS priceLokal,
+mp_riset_products_import.prodNameImport AS prodNameImport,
+mp_riset_products_import.urlImport AS urlImport,
+mp_riset_products_import.priceImport AS priceImport,
+mp_riset_products_import.qtyReq AS qtyReq,
+mp_riset_products_import.statusUpload AS statusUpload,
+mp_riset_products_import.statusImport AS statusImport,
+mp_riset_products_import.ket AS ket,
+mp_riset_products_import.shippingVia AS shippingVia,
+mp_riset_products_import.contributorId AS contributorId,
+mp_riset_products_import.shippingCost AS shippingCost,
+mp_riset_products_import.disc AS disc,
+mp_riset_products_import.isiBox AS isiBox,
+mp_riset_products_import.panjang AS panjang,
+mp_riset_products_import.lebar AS lebar,
+mp_riset_products_import.tinggi AS tinggi,
+mp_riset_products_import.costForwarder AS costForwarder,
+mp_riset_products_import.currency AS currency,
+mp_riset_products_import.created_at AS created_at,
+mp_riset_products_import.updated_at AS updated_at,
+mp_riset_products_import.req_at AS req_at,
+currency_exchange_rates.rate_id AS rate_id,
+currency_exchange_rates.report_date AS report_date,
+currency_exchange_rates.currency AS currency,
+currency_exchange_rates.buy_rate AS buy_rate,
+currency_exchange_rates.sell_rate AS sell_rate,
+((((mp_riset_products_import.priceImport *mp_riset_products_import.qtyReq) + mp_riset_products_import.shippingCost - mp_riset_products_import.disc) * currency_exchange_rates.buy_rate) + ((mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox) * ((mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000) * mp_riset_products_import.costForwarder)) / mp_riset_products_import.qtyReq AS EstHppImport,
+mp_riset_products_import.priceLokal - (((((mp_riset_products_import.priceImport *mp_riset_products_import.qtyReq) + mp_riset_products_import.shippingCost - mp_riset_products_import.disc) * currency_exchange_rates.buy_rate) + ((mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox) * ((mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000) * mp_riset_products_import.costForwarder)) / mp_riset_products_import.qtyReq) AS compareHpp,
+(mp_riset_products_import.priceLokal - (((((mp_riset_products_import.priceImport *mp_riset_products_import.qtyReq) + mp_riset_products_import.shippingCost - mp_riset_products_import.disc) * currency_exchange_rates.buy_rate) + ((mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox) * ((mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000) * mp_riset_products_import.costForwarder)) / mp_riset_products_import.qtyReq)) / mp_riset_products_import.priceLokal AS savingHpp,
+(mp_riset_products_import.priceImport *mp_riset_products_import.qtyReq) + mp_riset_products_import.shippingCost - mp_riset_products_import.disc AS EstBillYuan,
+((mp_riset_products_import.priceImport *mp_riset_products_import.qtyReq) + mp_riset_products_import.shippingCost - mp_riset_products_import.disc) * currency_exchange_rates.buy_rate AS EstBillRp,
+mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox AS ctn,
+(mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000 AS cbm,
+(mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox) * ((mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000) AS cbmTotal,
+(mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox) * ((mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000) * mp_riset_products_import.costForwarder AS totalForwarder,
+(((mp_riset_products_import.priceImport *mp_riset_products_import.qtyReq) + mp_riset_products_import.shippingCost - mp_riset_products_import.disc) * currency_exchange_rates.buy_rate) + ((mp_riset_products_import.qtyReq / mp_riset_products_import.isiBox) * ((mp_riset_products_import.panjang * mp_riset_products_import.lebar * mp_riset_products_import.tinggi)/1000000) * mp_riset_products_import.costForwarder) AS totalPurchase
+FROM mp_riset_products_import
+JOIN currency_exchange_rates
+ON mp_riset_products_import.currency = currency_exchange_rates.currency) AS datas
